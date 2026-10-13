@@ -59,7 +59,7 @@ npm start -- --dist --port 3037
 
 演示由 GitHub Pages 托管。合并到 `main` 后，**Verify standalone map** 工作流先执行 `npm ci` 和完整 `npm run verify`，成功后仅上传 `dist/` 并部署；PR 和功能分支只验证，不部署。验证失败不会发布新版本。
 
-维护者可在 Actions 中选择该工作流并在 `main` 上手动运行。Pages 设置使用 **GitHub Actions** 作为发布源；无需域名、额外密钥或 npm 发布。仓库源码、测试、制作记录不进入在线站点。
+维护者可在 Actions 中选择该工作流并在 `main` 上手动运行。Pages 设置使用 **GitHub Actions** 作为发布源；无需域名、额外密钥或 npm 发布。构建脚本、测试、制作记录不进入在线站点。
 
 ## 目录
 
