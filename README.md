@@ -2,6 +2,8 @@
 
 一张可独立运行的北京立体地图：浏览十二个地点，进入北海取景，切换自由视角、冬景与工体灯光。
 
+**[在线试玩 · Play the live map ↗](https://haimuhaimu.github.io/beijing-3d-map/)** — 无需安装或登录。首次会加载约 18.3 MB 的模型，建议使用支持 WebGL 2 的现代浏览器。
+
 An independent, self-contained 3D city explorer by **Chen Quan / 陈全**. Twelve destinations, a guided Beihai visit, free camera, seasonal snow and stadium lighting — no API key, CDN or parent application required.
 
 ![北京十二坐标地图预览](preview.png)
@@ -52,6 +54,12 @@ npm start -- --dist --port 3037
 
 `dist/` 可以交给普通静态 HTTP 服务预览或部署。它只包含显式清单内的运行/许可文件，以及 `manifest.json`（逐文件 SHA-256 与字节数）；不会复制 tests、scripts、作品集内容或额外放入的文件。
 构建发现输出目录中的意外文件会停止并保留它们，不自动删除。
+
+## 在线演示部署
+
+演示由 GitHub Pages 托管。合并到 `main` 后，**Verify standalone map** 工作流先执行 `npm ci` 和完整 `npm run verify`，成功后仅上传 `dist/` 并部署；PR 和功能分支只验证，不部署。验证失败不会发布新版本。
+
+维护者可在 Actions 中选择该工作流并在 `main` 上手动运行。Pages 设置使用 **GitHub Actions** 作为发布源；无需域名、额外密钥或 npm 发布。构建脚本、测试、制作记录不进入在线站点。
 
 ## 目录
 
