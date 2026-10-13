@@ -1,0 +1,17 @@
+{
+  "name": "beijing-3d-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-contained interactive Beijing 3D city map",
+  "author": "Chen Quan",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "verify": "npm run check && npm test && npm run build"
+  }
+}

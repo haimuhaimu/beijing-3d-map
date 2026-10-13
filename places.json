@@ -1,0 +1,9787 @@
+{
+  "title": "一座北京，十二个坐标",
+  "bounds": {
+    "width": 136,
+    "depth": 116,
+    "height": 22,
+    "center": [
+      -7,
+      0,
+      -10
+    ]
+  },
+  "overview": {
+    "target": [
+      3,
+      1,
+      -7
+    ],
+    "offset": [
+      0,
+      67,
+      95
+    ],
+    "frame": {
+      "width": 123,
+      "depth": 113,
+      "height": 16,
+      "center": [
+        -2,
+        0,
+        -9
+      ]
+    }
+  },
+  "lampPositions": [
+    [
+      18.6,
+      4.3,
+      6.5
+    ],
+    [
+      25.4,
+      4.3,
+      6.5
+    ],
+    [
+      18.6,
+      4.3,
+      1.5
+    ],
+    [
+      25.4,
+      4.3,
+      1.5
+    ]
+  ],
+  "stadiumCenter": [
+    22,
+    0,
+    4
+  ],
+  "places": [
+    {
+      "id": "xierqi",
+      "number": "01",
+      "name": "西二旗",
+      "subtitle": "后厂村的日常",
+      "group": "城市",
+      "position": [
+        -16,
+        24
+      ],
+      "target": [
+        -16,
+        5.7,
+        -26
+      ],
+      "anchor": [
+        -15,
+        12,
+        -28
+      ],
+      "offset": [
+        20,
+        18,
+        29
+      ],
+      "description": "办公楼、园区与通勤列车，拼起日常经过的街区。",
+      "art": "city",
+      "frame": {
+        "width": 13,
+        "depth": 15,
+        "height": 15.8,
+        "center": [
+          -16,
+          0,
+          -26
+        ]
+      }
+    },
+    {
+      "id": "beihai",
+      "number": "02",
+      "name": "北海",
+      "subtitle": "白塔与湖面",
+      "group": "城市",
+      "position": [
+        2,
+        -7
+      ],
+      "target": [
+        2,
+        2.3,
+        7.4
+      ],
+      "anchor": [
+        2,
+        6.7,
+        4.22
+      ],
+      "offset": [
+        9,
+        10.5,
+        18
+      ],
+      "description": "永安桥接入琼岛，红墙绿瓦沿山而上，白塔露出树梢。",
+      "art": "beihai",
+      "card": {
+        "name": "慢一回合",
+        "type": "通常陷阱",
+        "kind": "trap",
+        "line": "停一停，也算旅程的一部分。"
+      }
+    },
+    {
+      "id": "workers",
+      "number": "03",
+      "name": "工体",
+      "subtitle": "球场亮灯时",
+      "group": "城市",
+      "position": [
+        22,
+        -4
+      ],
+      "target": [
+        22,
+        1.1,
+        4
+      ],
+      "anchor": [
+        22,
+        2.6,
+        4
+      ],
+      "offset": [
+        8,
+        15,
+        -17
+      ],
+      "description": "从环形看台走向绿茵场，把这一夜留给足球。",
+      "art": "stadium",
+      "card": {
+        "name": "此刻，开球",
+        "type": "速攻魔法",
+        "kind": "spell",
+        "line": "到场以后，才知道下一脚往哪里去。"
+      }
+    },
+    {
+      "id": "798",
+      "number": "04",
+      "name": "798",
+      "subtitle": "旧厂房里的创作",
+      "group": "城市",
+      "position": [
+        29,
+        18
+      ],
+      "target": [
+        29,
+        1.5,
+        -18
+      ],
+      "anchor": [
+        29,
+        4,
+        -18
+      ],
+      "offset": [
+        13,
+        12,
+        18
+      ],
+      "description": "锯齿天窗、红砖厂房、旧管道与小院，艺术生活藏在工业遗存之间。",
+      "art": "factory",
+      "card": {
+        "name": "造梦工匠",
+        "type": "效果怪兽",
+        "kind": "monster",
+        "line": "想法落地时，会发出一点声音。"
+      }
+    },
+    {
+      "id": "zhongguancun",
+      "number": "05",
+      "name": "中关村",
+      "subtitle": "知识与新问题",
+      "group": "城市",
+      "position": [
+        -20,
+        10
+      ],
+      "target": [
+        -20,
+        1.3,
+        -10
+      ],
+      "anchor": [
+        -20,
+        3.3,
+        -10
+      ],
+      "offset": [
+        13,
+        12,
+        18
+      ],
+      "description": "校园、书页与广场，在城市里留下一块阅读的地方。",
+      "art": "book",
+      "card": {
+        "name": "原力书库",
+        "type": "场地魔法",
+        "kind": "spell",
+        "line": "来路上的问题，还能照亮下一步。"
+      }
+    },
+    {
+      "id": "olympic",
+      "number": "06",
+      "name": "奥体 · 奥森",
+      "subtitle": "绿茵与林间",
+      "group": "城市",
+      "position": [
+        7,
+        21
+      ],
+      "target": [
+        7,
+        1.3,
+        -21
+      ],
+      "anchor": [
+        7,
+        3,
+        -21
+      ],
+      "offset": [
+        15,
+        14,
+        22
+      ],
+      "description": "场馆、足球场与森林步道，串起周末的户外时光。",
+      "art": "stadium",
+      "card": {
+        "name": "下一段山路",
+        "type": "场地魔法",
+        "kind": "spell",
+        "line": "还有一段风景，在下一次出发里。"
+      }
+    },
+    {
+      "id": "chongli",
+      "number": "07",
+      "name": "崇礼",
+      "subtitle": "万龙 · 太舞 · 云顶",
+      "group": "山野",
+      "position": [
+        -43,
+        38
+      ],
+      "target": [
+        -43,
+        5,
+        -38
+      ],
+      "anchor": [
+        -43,
+        13,
+        -41
+      ],
+      "offset": [
+        9,
+        39,
+        58
+      ],
+      "description": "雪道穿过群山与林海，山脚亮着小镇的暖窗。万龙的雪具区、太舞的初学雪坡和云顶的比赛场地，各有自己的入口。",
+      "art": "mountain",
+      "frame": {
+        "width": 59,
+        "depth": 57,
+        "height": 21,
+        "center": [
+          -43,
+          0,
+          -38
+        ]
+      },
+      "resorts": [
+        {
+          "id": "wanlong",
+          "name": "万龙",
+          "subtitle": "林海与分岔雪道",
+          "description": "林间雪道沿山脊分岔，红色缆车连到山脚。压雪车停在雪具大厅旁，围栏与雪堤沿着弯道展开。",
+          "target": [
+            -53,
+            5,
+            -39
+          ],
+          "anchor": [
+            -51,
+            7,
+            -35
+          ],
+          "offset": [
+            7,
+            21,
+            29
+          ],
+          "frame": {
+            "width": 22,
+            "depth": 23,
+            "height": 18,
+            "center": [
+              -53,
+              0,
+              -39
+            ]
+          }
+        },
+        {
+          "id": "thaiwoo",
+          "name": "太舞",
+          "subtitle": "钟楼下的滑雪小镇",
+          "description": "钟楼、坡屋顶和暖窗围着小镇广场；露台上摆着桌椅，雪具架旁通向初学雪坡和魔毯。",
+          "target": [
+            -36,
+            4,
+            -24
+          ],
+          "anchor": [
+            -34,
+            5,
+            -18
+          ],
+          "offset": [
+            5,
+            18,
+            26
+          ],
+          "frame": {
+            "width": 22,
+            "depth": 22,
+            "height": 14,
+            "center": [
+              -36,
+              0,
+              -24
+            ]
+          }
+        },
+        {
+          "id": "genting",
+          "name": "云顶",
+          "subtitle": "山谷中的冰雪赛场",
+          "description": "蓝色出发门立在 U 型雪槽上方，防护网顺坡延伸；跳台、旗帜和终点看台围着山谷展开。",
+          "target": [
+            -26,
+            5,
+            -48
+          ],
+          "anchor": [
+            -26.8,
+            9,
+            -48
+          ],
+          "offset": [
+            6,
+            22,
+            29
+          ],
+          "frame": {
+            "width": 22,
+            "depth": 24,
+            "height": 18,
+            "center": [
+              -26,
+              0,
+              -48
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "universal",
+      "number": "08",
+      "name": "环球影城",
+      "subtitle": "从地球广场到魔法街巷",
+      "group": "乐园",
+      "position": [
+        50,
+        -35
+      ],
+      "target": [
+        50.0,
+        2.9,
+        35.8
+      ],
+      "anchor": [
+        50.129999999999995,
+        9.78,
+        30.48
+      ],
+      "offset": [
+        12.5,
+        12,
+        21
+      ],
+      "description": "地球广场通向积雪屋顶的村落，岩壁上的城堡与尖塔在夜色中层层升起。",
+      "art": "castle"
+    },
+    {
+      "id": "happy-valley",
+      "number": "09",
+      "name": "欢乐谷",
+      "subtitle": "圣城与飞驰的轨道",
+      "group": "乐园",
+      "position": [
+        32,
+        -30
+      ],
+      "target": [
+        31.3,
+        2.7,
+        30.7
+      ],
+      "anchor": [
+        29.55,
+        7.95,
+        26.65
+      ],
+      "offset": [
+        11,
+        11.5,
+        20
+      ],
+      "description": "水晶圣城、穿山飞行轨道与湖畔游乐区，在夜色里层层展开。",
+      "art": "coaster"
+    },
+    {
+      "id": "zhichun",
+      "number": "10",
+      "name": "知春路",
+      "subtitle": "熟悉的通勤街区",
+      "group": "城市",
+      "position": [
+        -7,
+        8
+      ],
+      "target": [
+        -7,
+        4,
+        -8
+      ],
+      "anchor": [
+        -5.5,
+        9,
+        -10.1
+      ],
+      "offset": [
+        17,
+        15,
+        24
+      ],
+      "description": "中航广场、卫星通信大厦和大钟寺一带，压缩成一组熟悉的城市街区。",
+      "art": "city",
+      "frame": {
+        "width": 13,
+        "depth": 11,
+        "height": 11.4,
+        "center": [
+          -6.6,
+          0,
+          -7.800000000000001
+        ]
+      }
+    },
+    {
+      "id": "xiangshan",
+      "number": "11",
+      "name": "香山",
+      "subtitle": "沿着山路向上",
+      "group": "山野",
+      "position": [
+        -34,
+        17
+      ],
+      "target": [
+        -34.0,
+        2.125,
+        -17.0
+      ],
+      "anchor": [
+        -34.0,
+        5.1,
+        -17.0
+      ],
+      "offset": [
+        12.75,
+        12.75,
+        18.7
+      ],
+      "description": "山脊、亭子与林间小路，把西山的层次接进城市。",
+      "art": "mountain"
+    },
+    {
+      "id": "sanfeng",
+      "number": "12",
+      "name": "三峰",
+      "subtitle": "阳台山 · 妙峰山",
+      "group": "山野",
+      "position": [
+        -35,
+        33
+      ],
+      "target": [
+        -35.0,
+        2.4000000000000004,
+        -33.0
+      ],
+      "anchor": [
+        -35.0,
+        5.6000000000000005,
+        -33.0
+      ],
+      "offset": [
+        12.8,
+        12.0,
+        18.400000000000002
+      ],
+      "description": "三道起伏的山脊与盘山步道，连成地图西侧的远山。",
+      "art": "mountain"
+    }
+  ],
+  "mapLayout": {
+    "bounds": {
+      "width": 128,
+      "depth": 117,
+      "height": 22,
+      "center": [
+        -2,
+        0,
+        -9
+      ]
+    },
+    "regions": {
+      "chongli": {
+        "origin": [
+          -43,
+          0,
+          -38
+        ],
+        "center": [
+          -43,
+          0,
+          -50
+        ],
+        "scale": 0.5
+      }
+    }
+  },
+  "supportingLandmarks": [
+    {
+      "id": "cctv",
+      "name": "央视总部",
+      "position": [
+        24,
+        -15
+      ],
+      "collection": "City_CBD_CCTV"
+    },
+    {
+      "id": "china-zun",
+      "name": "中国尊",
+      "position": [
+        28.5,
+        -15.8
+      ],
+      "collection": "City_CBD_ChinaZun"
+    },
+    {
+      "id": "guomao",
+      "name": "国贸",
+      "position": [
+        25.5,
+        -20.5
+      ],
+      "collection": "City_CBD_Guomao"
+    },
+    {
+      "id": "temple-of-heaven",
+      "name": "天坛",
+      "position": [
+        6,
+        -28
+      ],
+      "collection": "City_CentralAxis_Heaven"
+    },
+    {
+      "id": "old-city-gate",
+      "name": "老城城门",
+      "position": [
+        3,
+        -20
+      ],
+      "collection": "City_CentralAxis_Gate"
+    }
+  ],
+  "olympicComponents": {
+    "birdsNest": [
+      10,
+      19.4
+    ],
+    "waterCube": [
+      2.7,
+      19.6
+    ],
+    "forestLake": [
+      6,
+      26
+    ]
+  },
+  "geography": {
+    "version": "geography14",
+    "north": "Blender +Y / GLB -Z",
+    "sources": [
+      {
+        "name": "央视总部：东三环以东、光华路以北",
+        "url": "https://cctvenchiridion.cctv.com/special/special/C20427/20071228/103833.shtml"
+      },
+      {
+        "name": "国贸：建国门外大街1号",
+        "url": "https://www.cwtc.com/service/rental.html"
+      },
+      {
+        "name": "798：酒仙桥大山子",
+        "url": "https://s.visitbeijing.com.cn/attraction/120339"
+      },
+      {
+        "name": "环球：通州、东六环与京哈高速相邻",
+        "url": "https://www.universalbeijingresort.com/en/ubrbasepage/getting-here"
+      },
+      {
+        "name": "北海：北京中心区，景山以西",
+        "url": "https://www.beijing.gov.cn/renwen/rwzyd/gdwh/bhgy/202107/t20210714_2436504.html"
+      },
+      {
+        "name": "欢乐谷：东四环四方桥东南",
+        "url": "https://bj.happyvalley.cn/date/problem.shtml"
+      }
+    ]
+  },
+  "atmosphere": {
+    "version": "atmosphere16",
+    "bounds": [
+      -40,
+      -40,
+      62,
+      47
+    ],
+    "districts": [
+      [
+        [
+          -33.7,
+          37.7
+        ],
+        [
+          -34.5,
+          25
+        ],
+        [
+          -33.2,
+          10
+        ],
+        [
+          -28.2,
+          -1.7
+        ],
+        [
+          -15,
+          -1.2
+        ],
+        [
+          -14.4,
+          17
+        ],
+        [
+          -15,
+          37.9
+        ]
+      ],
+      [
+        [
+          -13.3,
+          -0.65
+        ],
+        [
+          -5.3,
+          -0.65
+        ],
+        [
+          -4.9,
+          6
+        ],
+        [
+          -6,
+          14.8
+        ],
+        [
+          -12.8,
+          14.3
+        ]
+      ],
+      [
+        [
+          -14.4,
+          16.8
+        ],
+        [
+          -3.5,
+          16.9
+        ],
+        [
+          7,
+          17.6
+        ],
+        [
+          14.5,
+          15.8
+        ],
+        [
+          16.5,
+          26
+        ],
+        [
+          15,
+          39.4
+        ],
+        [
+          -12,
+          39
+        ]
+      ],
+      [
+        [
+          -10.6,
+          -16.6
+        ],
+        [
+          -2,
+          -15
+        ],
+        [
+          0.1,
+          -24
+        ],
+        [
+          -0.5,
+          -34
+        ],
+        [
+          -7,
+          -35
+        ],
+        [
+          -10.2,
+          -28
+        ]
+      ],
+      [
+        [
+          15.1,
+          -0.75
+        ],
+        [
+          28.2,
+          -0.8
+        ],
+        [
+          37.8,
+          -1.7
+        ],
+        [
+          38,
+          -9.8
+        ],
+        [
+          23,
+          -9.7
+        ],
+        [
+          15.3,
+          -8.5
+        ]
+      ],
+      [
+        [
+          29,
+          10
+        ],
+        [
+          39.1,
+          10.3
+        ],
+        [
+          40.2,
+          17
+        ],
+        [
+          39,
+          24.8
+        ],
+        [
+          30,
+          24.2
+        ]
+      ],
+      [
+        [
+          40.2,
+          -9
+        ],
+        [
+          46.8,
+          -8.2
+        ],
+        [
+          47.6,
+          22.8
+        ],
+        [
+          41.4,
+          24.8
+        ],
+        [
+          39.8,
+          12
+        ]
+      ],
+      [
+        [
+          37.7,
+          26
+        ],
+        [
+          43,
+          27
+        ],
+        [
+          44,
+          39.5
+        ],
+        [
+          39.4,
+          40.8
+        ],
+        [
+          37.2,
+          36
+        ]
+      ]
+    ],
+    "lights": [
+      {
+        "position": [
+          -10.4,
+          4.8
+        ],
+        "radius": [
+          1.65,
+          1.45
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7,
+          2.15
+        ],
+        "radius": [
+          1.65,
+          1.45
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.35,
+          5.05
+        ],
+        "radius": [
+          1.65,
+          1.45
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -11.75,
+          12.5
+        ],
+        "radius": [
+          1.65,
+          1.45
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.9409,
+          6.4302
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.4198,
+          4.0338
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.2449,
+          1.9951
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.558,
+          0.5601
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.5626,
+          -0.0982
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.4993,
+          0.0997
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -1.3829,
+          1.1299
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.8572,
+          2.8681
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -3.7456,
+          5.1046
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -3.9409,
+          7.5698
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -3.4198,
+          9.9662
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.2449,
+          12.0049
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -0.558,
+          13.4399
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          3.5007,
+          13.9003
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          5.3829,
+          12.8701
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.8572,
+          11.1319
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.7456,
+          8.8954
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.0,
+          22.02
+        ],
+        "radius": [
+          1.87,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.0,
+          21.895
+        ],
+        "radius": [
+          1.572,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.0,
+          20.02
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.0,
+          21.67
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.0,
+          14.445
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.0,
+          7.8441
+        ],
+        "radius": [
+          1.862,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.8322,
+          8.8405
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7.1678,
+          8.8405
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.0,
+          10.8853
+        ],
+        "radius": [
+          1.658,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.741,
+          11.7725
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.259,
+          11.7725
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.0,
+          12.9007
+        ],
+        "radius": [
+          1.581,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.7068,
+          13.747
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -21.2932,
+          13.747
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -11.0,
+          -14.0301
+        ],
+        "radius": [
+          1.718,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -11.8236,
+          -14.0342
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.1441,
+          -14.0762
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.0,
+          3.9794
+        ],
+        "radius": [
+          2.596,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.2222,
+          3.9697
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -16.7042,
+          3.8689
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.0,
+          8.9841
+        ],
+        "radius": [
+          2.267,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.6,
+          9.4292
+        ],
+        "radius": [
+          2.093,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.6502,
+          9.3185
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.6367,
+          9.4193
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.5,
+          10.898
+        ],
+        "radius": [
+          1.776,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.6,
+          19.5594
+        ],
+        "radius": [
+          1.746,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          20.9707
+        ],
+        "radius": [
+          2.924,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.3998,
+          20.9624
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.545,
+          20.8768
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -20.0,
+          20.9012
+        ],
+        "radius": [
+          1.817,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          20.0929
+        ],
+        "radius": [
+          1.973,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.7,
+          20.4997
+        ],
+        "radius": [
+          1.727,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.5627,
+          20.4445
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.8835,
+          20.4948
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          29.0691
+        ],
+        "radius": [
+          2.845,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.0,
+          28.9754
+        ],
+        "radius": [
+          2.426,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -20.2119,
+          28.8722
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.8617,
+          28.9663
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          28.0813
+        ],
+        "radius": [
+          2.687,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          27.9594
+        ],
+        "radius": [
+          1.746,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          36.4647
+        ],
+        "radius": [
+          2.585,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.8,
+          36.1527
+        ],
+        "radius": [
+          1.9,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.8,
+          36.6679
+        ],
+        "radius": [
+          1.976,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          36.9999
+        ],
+        "radius": [
+          2.572,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.7771,
+          36.9446
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.2577,
+          36.995
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.0,
+          37.9999
+        ],
+        "radius": [
+          2.572,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.0,
+          38.1459
+        ],
+        "radius": [
+          2.233,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.0,
+          -13.0591
+        ],
+        "radius": [
+          1.808,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.0,
+          -18.9946
+        ],
+        "radius": [
+          1.58,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          34.0,
+          -2.5561
+        ],
+        "radius": [
+          2.063,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          33.0106,
+          -2.56
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          35.0262,
+          -2.6003
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          33.0,
+          4.8998
+        ],
+        "radius": [
+          2.067,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.5,
+          -3.28
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.0,
+          -3.1601
+        ],
+        "radius": [
+          1.72,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.1766,
+          -3.1634
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.8562,
+          -3.197
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.0,
+          -3.6503
+        ],
+        "radius": [
+          1.73,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          43.0,
+          9.1613
+        ],
+        "radius": [
+          1.845,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          44.0,
+          17.0012
+        ],
+        "radius": [
+          1.822,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.5719,
+          24.4326
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.589,
+          12.2881
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.5975,
+          1.9076
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -29.6034,
+          -2.4301
+        ],
+        "radius": [
+          1.258,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.3815,
+          7.1887
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.9051,
+          -31.3083
+        ],
+        "radius": [
+          1.745,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -1.2738,
+          -30.7174
+        ],
+        "radius": [
+          1.946,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.3912,
+          -25.4879
+        ],
+        "radius": [
+          1.25,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -0.8883,
+          20.7478
+        ],
+        "radius": [
+          1.441,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.0305,
+          20.8965
+        ],
+        "radius": [
+          1.334,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.2919,
+          31.8149
+        ],
+        "radius": [
+          1.534,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.1009,
+          32.3372
+        ],
+        "radius": [
+          1.956,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.1508,
+          32.1723
+        ],
+        "radius": [
+          1.395,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.9662,
+          28.1484
+        ],
+        "radius": [
+          1.259,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.62,
+          0.1
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.48,
+          -7.0
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          36.88,
+          10.4
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -29.0887,
+          30.7324
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -28.6328,
+          24.7894
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -29.3666,
+          19.4508
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.7453,
+          14.6594
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -28.5525,
+          8.8916
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.4968,
+          3.601
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -28.289,
+          -1.5525
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.6188,
+          -5.9334
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -26.7472,
+          -10.9181
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.6164,
+          -15.9596
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.7603,
+          -21.4187
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.3268,
+          -26.6085
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.3773,
+          -32.1336
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.4725,
+          29.9325
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.4247,
+          24.9714
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -16.3628,
+          19.7936
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.7933,
+          14.9188
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -13.6938,
+          9.7095
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.5248,
+          4.9256
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.0349,
+          0.0118
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.8277,
+          -6.466
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -13.8015,
+          -11.8386
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.6973,
+          -17.2495
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.2715,
+          -18.7484
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.8806,
+          -17.0314
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7.499,
+          -17.6998
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -3.2575,
+          -14.789
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.1481,
+          -11.6168
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.3623,
+          -13.0011
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.6197,
+          -10.1516
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.1098,
+          -9.752
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.0315,
+          -7.9704
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.5285,
+          -9.6737
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.4274,
+          -8.8525
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -26.6334,
+          17.8416
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -21.1736,
+          16.337
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.3611,
+          16.9714
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.2595,
+          14.1685
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.6067,
+          16.5463
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.8568,
+          17.5472
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.2528,
+          15.8834
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.7641,
+          15.0341
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.3231,
+          10.666
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.2125,
+          11.522
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.072,
+          10.0474
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          31.0877,
+          12.3719
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          36.2969,
+          12.506
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.4284,
+          32.5505
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.3488,
+          27.0443
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.4989,
+          19.7399
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.0013,
+          14.3009
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.4453,
+          9.0897
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.6048,
+          3.7378
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.0254,
+          -1.9825
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.6598,
+          -7.9371
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.0321,
+          -12.7705
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.1222,
+          -18.0975
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.8335,
+          -23.7553
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.2716,
+          -29.1774
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.0877,
+          -34.6878
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.867,
+          -36.5857
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.3712,
+          -34.8941
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7.2401,
+          -35.4058
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.071,
+          -33.5933
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          3.4685,
+          -34.4039
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.5074,
+          -34.128
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.8123,
+          -31.7654
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.9399,
+          -30.5594
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          23.3117,
+          -28.2303
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.3524,
+          -29.322
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          33.4707,
+          -28.2645
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.701,
+          12.5179
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.0162,
+          17.4358
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.1495,
+          22.6123
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.8237,
+          23.046
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.0292,
+          24.1093
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          34.9623,
+          22.809
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          39.4459,
+          21.0909
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          40.6206,
+          13.0599
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.7991,
+          7.7831
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          39.5083,
+          2.6304
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.8913,
+          -3.0222
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.4911,
+          -9.3231
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.393,
+          -14.7307
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          36.8284,
+          -20.9043
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.7451,
+          -26.537
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.4772,
+          23.743
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -21.5007,
+          22.3018
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -13.4269,
+          22.0168
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.0869,
+          23.2146
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.6935,
+          21.7493
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.7441,
+          23.282
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.1389,
+          21.827
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.7513,
+          22.3482
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -28.5713,
+          33.4613
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.4472,
+          31.5522
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.9032,
+          32.7058
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.2569,
+          32.0064
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.8484,
+          33.8477
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -1.2819,
+          34.4061
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.0978,
+          33.413
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.1863,
+          34.5929
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.7274,
+          33.4659
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.6766,
+          35.5465
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          22.5429,
+          38.8789
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.6561,
+          40.9948
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.0636,
+          39.3881
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          36.9603,
+          41.2517
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          40.0779,
+          37.5119
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          40.1974,
+          31.8186
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          42.174,
+          27.0462
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          45.7417,
+          23.8135
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          50.8594,
+          25.6192
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          56.6518,
+          25.916
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          58.7032,
+          30.1913
+        ],
+        "radius": [
+          1.7,
+          1.38
+        ],
+        "strength": 0.67,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.2,
+          -25.755
+        ],
+        "radius": [
+          2.253,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.0,
+          -26.455
+        ],
+        "radius": [
+          2.337,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.6,
+          -22.03
+        ],
+        "radius": [
+          1.7,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.9,
+          -20.905
+        ],
+        "radius": [
+          2.253,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -16.1,
+          -20.505
+        ],
+        "radius": [
+          2.337,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          -8.455
+        ],
+        "radius": [
+          2.55,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          -8.63
+        ],
+        "radius": [
+          2.295,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.0,
+          -4.205
+        ],
+        "radius": [
+          3.485,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.5,
+          -5.28
+        ],
+        "radius": [
+          1.445,
+          1.25
+        ],
+        "strength": 0.63,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.6237,
+          12.8286
+        ],
+        "radius": [
+          1.415,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 3.106
+      },
+      {
+        "position": [
+          -20.1605,
+          24.6487
+        ],
+        "radius": [
+          1.281,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1657
+      },
+      {
+        "position": [
+          -29.975,
+          13.3829
+        ],
+        "radius": [
+          1.846,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.4664
+      },
+      {
+        "position": [
+          -34.2765,
+          21.0188
+        ],
+        "radius": [
+          1.964,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7122
+      },
+      {
+        "position": [
+          -32.7654,
+          27.4707
+        ],
+        "radius": [
+          2.052,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.8985
+      },
+      {
+        "position": [
+          -31.7608,
+          -0.96
+        ],
+        "radius": [
+          1.449,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 0.8104
+      },
+      {
+        "position": [
+          -28.1629,
+          29.4397
+        ],
+        "radius": [
+          1.382,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.6458
+      },
+      {
+        "position": [
+          -21.741,
+          30.9825
+        ],
+        "radius": [
+          1.927,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.0327
+      },
+      {
+        "position": [
+          -26.2661,
+          24.1426
+        ],
+        "radius": [
+          2.128,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1288
+      },
+      {
+        "position": [
+          -33.8824,
+          15.603
+        ],
+        "radius": [
+          1.274,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.5776
+      },
+      {
+        "position": [
+          -26.374,
+          14.1737
+        ],
+        "radius": [
+          1.496,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.6194
+      },
+      {
+        "position": [
+          -14.3633,
+          3.0431
+        ],
+        "radius": [
+          1.893,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.6606
+      },
+      {
+        "position": [
+          -21.2622,
+          15.8225
+        ],
+        "radius": [
+          1.866,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -0.0096
+      },
+      {
+        "position": [
+          -15.7821,
+          29.0114
+        ],
+        "radius": [
+          1.253,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.5593
+      },
+      {
+        "position": [
+          -19.1468,
+          30.8847
+        ],
+        "radius": [
+          1.551,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -0.0423
+      },
+      {
+        "position": [
+          -20.8636,
+          2.0207
+        ],
+        "radius": [
+          1.436,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 3.1201
+      },
+      {
+        "position": [
+          -23.2545,
+          24.6876
+        ],
+        "radius": [
+          1.699,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1786
+      },
+      {
+        "position": [
+          -29.7397,
+          7.7686
+        ],
+        "radius": [
+          1.743,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.5481
+      },
+      {
+        "position": [
+          -32.901,
+          2.3938
+        ],
+        "radius": [
+          1.899,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.908
+      },
+      {
+        "position": [
+          -8.7299,
+          31.7273
+        ],
+        "radius": [
+          2.146,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": -0.0924
+      },
+      {
+        "position": [
+          11.2519,
+          20.4694
+        ],
+        "radius": [
+          2.031,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.1673
+      },
+      {
+        "position": [
+          -12.6736,
+          29.4194
+        ],
+        "radius": [
+          1.71,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.6834
+      },
+      {
+        "position": [
+          -1.2076,
+          27.409
+        ],
+        "radius": [
+          2.17,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -1.6028
+      },
+      {
+        "position": [
+          -6.87,
+          23.639
+        ],
+        "radius": [
+          1.319,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1752
+      },
+      {
+        "position": [
+          -8.9069,
+          16.4119
+        ],
+        "radius": [
+          1.864,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 3.0966
+      },
+      {
+        "position": [
+          -4.6631,
+          23.942
+        ],
+        "radius": [
+          1.336,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1755
+      },
+      {
+        "position": [
+          -11.0457,
+          24.0707
+        ],
+        "radius": [
+          2.087,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1833
+      },
+      {
+        "position": [
+          -3.3437,
+          -18.2954
+        ],
+        "radius": [
+          1.49,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": -0.2956
+      },
+      {
+        "position": [
+          -6.4813,
+          -18.2142
+        ],
+        "radius": [
+          1.284,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -0.2457
+      },
+      {
+        "position": [
+          -4.0957,
+          -31.0325
+        ],
+        "radius": [
+          2.144,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.0412
+      },
+      {
+        "position": [
+          37.1651,
+          -3.4975
+        ],
+        "radius": [
+          1.799,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 1.5998
+      },
+      {
+        "position": [
+          26.8008,
+          -6.3738
+        ],
+        "radius": [
+          2.195,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1027
+      },
+      {
+        "position": [
+          26.5113,
+          -3.3083
+        ],
+        "radius": [
+          1.904,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1216
+      },
+      {
+        "position": [
+          18.432,
+          -2.9195
+        ],
+        "radius": [
+          1.471,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.194
+      },
+      {
+        "position": [
+          15.2255,
+          -2.6081
+        ],
+        "radius": [
+          1.282,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.4966
+      },
+      {
+        "position": [
+          22.6181,
+          -3.0032
+        ],
+        "radius": [
+          1.966,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 3.5418
+      },
+      {
+        "position": [
+          40.7732,
+          1.8412
+        ],
+        "radius": [
+          1.447,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.8087
+      },
+      {
+        "position": [
+          41.6496,
+          -4.7157
+        ],
+        "radius": [
+          1.735,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7811
+      },
+      {
+        "position": [
+          40.8847,
+          -7.9749
+        ],
+        "radius": [
+          1.501,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7693
+      },
+      {
+        "position": [
+          40.9714,
+          10.8884
+        ],
+        "radius": [
+          1.761,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7902
+      },
+      {
+        "position": [
+          41.1416,
+          19.5786
+        ],
+        "radius": [
+          1.903,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.5123
+      },
+      {
+        "position": [
+          43.8847,
+          18.2944
+        ],
+        "radius": [
+          1.509,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.5725
+      },
+      {
+        "position": [
+          44.4421,
+          23.3207
+        ],
+        "radius": [
+          1.433,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.1106
+      },
+      {
+        "position": [
+          44.2588,
+          12.0918
+        ],
+        "radius": [
+          1.415,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7919
+      },
+      {
+        "position": [
+          43.2689,
+          0.9054
+        ],
+        "radius": [
+          1.873,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7723
+      },
+      {
+        "position": [
+          43.1677,
+          4.72
+        ],
+        "radius": [
+          2.169,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7894
+      },
+      {
+        "position": [
+          40.6763,
+          -2.0175
+        ],
+        "radius": [
+          1.256,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.784
+      },
+      {
+        "position": [
+          41.4809,
+          23.4754
+        ],
+        "radius": [
+          1.771,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.5323
+      },
+      {
+        "position": [
+          46.8303,
+          20.184
+        ],
+        "radius": [
+          1.476,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -0.0076
+      },
+      {
+        "position": [
+          46.7825,
+          22.325
+        ],
+        "radius": [
+          1.613,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.0018
+      },
+      {
+        "position": [
+          41.3249,
+          5.3972
+        ],
+        "radius": [
+          1.908,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7935
+      },
+      {
+        "position": [
+          41.2262,
+          13.6976
+        ],
+        "radius": [
+          1.477,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.7326
+      },
+      {
+        "position": [
+          42.7301,
+          -7.5555
+        ],
+        "radius": [
+          1.305,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7956
+      },
+      {
+        "position": [
+          39.5108,
+          34.3215
+        ],
+        "radius": [
+          2.214,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 1.593
+      },
+      {
+        "position": [
+          42.573,
+          38.6989
+        ],
+        "radius": [
+          1.807,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.5534
+      },
+      {
+        "position": [
+          39.7889,
+          29.9554
+        ],
+        "radius": [
+          1.615,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.4403
+      },
+      {
+        "position": [
+          42.5258,
+          31.6979
+        ],
+        "radius": [
+          1.449,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.6712
+      },
+      {
+        "position": [
+          42.3402,
+          35.1857
+        ],
+        "radius": [
+          1.367,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.7519
+      },
+      {
+        "position": [
+          42.52,
+          28.8546
+        ],
+        "radius": [
+          1.587,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 4.59
+      },
+      {
+        "position": [
+          35.8691,
+          -26.5495
+        ],
+        "radius": [
+          1.304,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 1.6176
+      },
+      {
+        "position": [
+          25.521,
+          -27.222
+        ],
+        "radius": [
+          1.463,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1518
+      },
+      {
+        "position": [
+          23.1107,
+          -27.6985
+        ],
+        "radius": [
+          1.475,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.0437
+      },
+      {
+        "position": [
+          31.1167,
+          -26.3822
+        ],
+        "radius": [
+          1.852,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1995
+      },
+      {
+        "position": [
+          12.1406,
+          38.5646
+        ],
+        "radius": [
+          1.334,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": -0.0485
+      },
+      {
+        "position": [
+          4.9425,
+          35.0999
+        ],
+        "radius": [
+          1.501,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1877
+      },
+      {
+        "position": [
+          -1.5245,
+          35.0252
+        ],
+        "radius": [
+          1.99,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.0421
+      },
+      {
+        "position": [
+          -27.2473,
+          37.4843
+        ],
+        "radius": [
+          1.359,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0.1487
+      },
+      {
+        "position": [
+          -14.0571,
+          36.3031
+        ],
+        "radius": [
+          1.665,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 4.6658
+      },
+      {
+        "position": [
+          -15.8489,
+          35.423
+        ],
+        "radius": [
+          1.368,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 1.6016
+      },
+      {
+        "position": [
+          -6.05,
+          0.47
+        ],
+        "radius": [
+          1.462,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": 3.1416
+      },
+      {
+        "position": [
+          -10.58,
+          3.65
+        ],
+        "radius": [
+          1.849,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 1.5708
+      },
+      {
+        "position": [
+          -6.95,
+          3.6
+        ],
+        "radius": [
+          1.806,
+          1.25
+        ],
+        "strength": 0.76,
+        "angle": -1.5708
+      },
+      {
+        "position": [
+          -10.8,
+          5.435
+        ],
+        "radius": [
+          1.591,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 3.1416
+      },
+      {
+        "position": [
+          -6.2,
+          6.77
+        ],
+        "radius": [
+          1.548,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.88,
+          10.5
+        ],
+        "radius": [
+          1.591,
+          1.25
+        ],
+        "strength": 0.48,
+        "angle": -1.5708
+      },
+      {
+        "position": [
+          -20,
+          -7
+        ],
+        "radius": [
+          4.2,
+          2.1
+        ],
+        "strength": 0.38,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8,
+          -3.5
+        ],
+        "radius": [
+          4.4,
+          2.6
+        ],
+        "strength": 0.39,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.6,
+          -21
+        ],
+        "radius": [
+          3.5,
+          1.8
+        ],
+        "strength": 0.34,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.0,
+          3.7
+        ],
+        "radius": [
+          3.3,
+          2.4
+        ],
+        "strength": 0.3,
+        "angle": 0
+      },
+      {
+        "position": [
+          1,
+          14.65
+        ],
+        "radius": [
+          3.8,
+          1.6
+        ],
+        "strength": 0.36,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.7,
+          -16.94
+        ],
+        "radius": [
+          1.5,
+          1.275
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.45,
+          -23.93
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.07,
+          -23.18
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.68,
+          -14.0
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          5.96,
+          -16.1
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.68,
+          -18
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          5.92,
+          -20.8
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.6,
+          -22.45
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.0,
+          -16.6
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.55,
+          -16.0
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.1,
+          -20.4
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.7,
+          -23.3
+        ],
+        "radius": [
+          1.35,
+          1.1475
+        ],
+        "strength": 0.69,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.3,
+          -24.5
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.2,
+          -27.3
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          3.3,
+          -28.95
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.2,
+          -29
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.75,
+          -27.7
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.45,
+          -25.0
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.12,
+          -26.0
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.06,
+          -27.5
+        ],
+        "radius": [
+          0.85,
+          0.7224999999999999
+        ],
+        "strength": 0.48,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.0,
+          -0.62
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.7,
+          -0.62
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          20,
+          -3.6
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          29.1,
+          -1.1
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.75,
+          2.4
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.8,
+          6.1
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          16,
+          2.8
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.7,
+          5.4
+        ],
+        "radius": [
+          1.25,
+          1.025
+        ],
+        "strength": 0.7,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.8,
+          8.7
+        ],
+        "radius": [
+          0.85,
+          0.697
+        ],
+        "strength": 0.49,
+        "angle": 0
+      },
+      {
+        "position": [
+          21,
+          8.75
+        ],
+        "radius": [
+          0.85,
+          0.697
+        ],
+        "strength": 0.49,
+        "angle": 0
+      },
+      {
+        "position": [
+          23.1,
+          8.78
+        ],
+        "radius": [
+          0.85,
+          0.697
+        ],
+        "strength": 0.49,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.1,
+          8.6
+        ],
+        "radius": [
+          0.85,
+          0.697
+        ],
+        "strength": 0.49,
+        "angle": 0
+      },
+      {
+        "position": [
+          29.400000000000002,
+          0.3
+        ],
+        "radius": [
+          1.2,
+          0.9839999999999999
+        ],
+        "strength": 0.8,
+        "angle": 0
+      },
+      {
+        "position": [
+          29.450000000000003,
+          3.5
+        ],
+        "radius": [
+          1.2,
+          0.9839999999999999
+        ],
+        "strength": 0.8,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.5,
+          12.63
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.21,
+          9.3
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.42,
+          5.6
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.66,
+          1.05
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.93,
+          10.8
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.6,
+          2.3
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.72,
+          1.38
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.28,
+          -1.7
+        ],
+        "radius": [
+          1.1,
+          0.93
+        ],
+        "strength": 0.59,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.25,
+          -12.92
+        ],
+        "radius": [
+          0.92,
+          0.85
+        ],
+        "strength": 0.52,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.08,
+          -16.5
+        ],
+        "radius": [
+          0.92,
+          0.85
+        ],
+        "strength": 0.52,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.65,
+          -20.35
+        ],
+        "radius": [
+          0.92,
+          0.85
+        ],
+        "strength": 0.52,
+        "angle": 0
+      }
+    ],
+    "contacts": [
+      {
+        "position": [
+          24.0,
+          20.5
+        ],
+        "radius": [
+          1.716,
+          2.418
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.0,
+          20.5
+        ],
+        "radius": [
+          1.443,
+          2.185
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.0,
+          19.0
+        ],
+        "radius": [
+          0.936,
+          1.488
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.0,
+          20.2
+        ],
+        "radius": [
+          1.053,
+          2.325
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.0,
+          13.5
+        ],
+        "radius": [
+          0.897,
+          1.349
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          22.12,
+          21.92
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.12,
+          21.92
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          31.52,
+          13.02
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.12,
+          13.12
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.0,
+          7.3576
+        ],
+        "radius": [
+          1.708,
+          0.496
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.8322,
+          8.0
+        ],
+        "radius": [
+          0.416,
+          1.154
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7.1678,
+          8.0
+        ],
+        "radius": [
+          0.416,
+          1.154
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -7.7486,
+          7.8835
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.0,
+          10.428
+        ],
+        "radius": [
+          1.521,
+          0.441
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.741,
+          11.0
+        ],
+        "radius": [
+          0.37,
+          1.028
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.259,
+          11.0
+        ],
+        "radius": [
+          0.37,
+          1.028
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.763,
+          10.8875
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.0,
+          12.4544
+        ],
+        "radius": [
+          1.451,
+          0.421
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.7068,
+          13.0
+        ],
+        "radius": [
+          0.353,
+          0.98
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -21.2932,
+          13.0
+        ],
+        "radius": [
+          0.353,
+          0.98
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -21.7684,
+          12.889
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -11.0,
+          -14.7
+        ],
+        "radius": [
+          1.576,
+          0.837
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.0,
+          3.0
+        ],
+        "radius": [
+          2.382,
+          1.413
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.0,
+          8.0
+        ],
+        "radius": [
+          2.08,
+          1.421
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.6,
+          8.5
+        ],
+        "radius": [
+          1.92,
+          1.319
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.5,
+          10.0
+        ],
+        "radius": [
+          1.63,
+          1.261
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.6,
+          18.6
+        ],
+        "radius": [
+          1.602,
+          1.375
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          20.0
+        ],
+        "radius": [
+          2.684,
+          1.396
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -20.0,
+          20.0
+        ],
+        "radius": [
+          1.668,
+          1.267
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          19.3
+        ],
+        "radius": [
+          1.811,
+          1.066
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.7,
+          19.7
+        ],
+        "radius": [
+          1.585,
+          1.078
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          28.0
+        ],
+        "radius": [
+          2.61,
+          1.579
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.0,
+          28.0
+        ],
+        "radius": [
+          2.226,
+          1.405
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          27.0
+        ],
+        "radius": [
+          2.466,
+          1.602
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          27.0
+        ],
+        "radius": [
+          1.602,
+          1.375
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0,
+          35.5
+        ],
+        "radius": [
+          2.372,
+          1.385
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.8,
+          35.3
+        ],
+        "radius": [
+          1.743,
+          1.177
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.8,
+          35.8
+        ],
+        "radius": [
+          1.813,
+          1.205
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          36.1
+        ],
+        "radius": [
+          2.36,
+          1.265
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.0,
+          37.1
+        ],
+        "radius": [
+          2.36,
+          1.265
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.0,
+          37.2
+        ],
+        "radius": [
+          2.049,
+          1.35
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.0,
+          -14.0
+        ],
+        "radius": [
+          1.66,
+          1.341
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.0,
+          -20.0
+        ],
+        "radius": [
+          1.45,
+          1.461
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          34.0,
+          -3.5
+        ],
+        "radius": [
+          1.893,
+          1.346
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          33.0,
+          4.0
+        ],
+        "radius": [
+          1.897,
+          1.264
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.5,
+          -4.4
+        ],
+        "radius": [
+          0.936,
+          1.674
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.0,
+          -4.0
+        ],
+        "radius": [
+          1.578,
+          1.153
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.0,
+          -4.5
+        ],
+        "radius": [
+          1.587,
+          1.171
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          43.0,
+          8.0
+        ],
+        "radius": [
+          1.693,
+          1.751
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          44.0,
+          16.0
+        ],
+        "radius": [
+          1.672,
+          1.453
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -31.5719,
+          23.1238
+        ],
+        "radius": [
+          0.976,
+          2.025
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.589,
+          11.2634
+        ],
+        "radius": [
+          1.044,
+          1.497
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -25.5975,
+          0.9722
+        ],
+        "radius": [
+          0.919,
+          1.331
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -29.6034,
+          -3.4585
+        ],
+        "radius": [
+          1.154,
+          1.503
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.3815,
+          6.0261
+        ],
+        "radius": [
+          1.076,
+          1.753
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.9051,
+          -32.1168
+        ],
+        "radius": [
+          1.601,
+          1.095
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -1.2738,
+          -31.6123
+        ],
+        "radius": [
+          1.786,
+          1.255
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.3912,
+          -26.2122
+        ],
+        "radius": [
+          1.144,
+          0.938
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -0.8883,
+          19.8728
+        ],
+        "radius": [
+          1.323,
+          1.218
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.0305,
+          19.9401
+        ],
+        "radius": [
+          1.224,
+          1.37
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.2919,
+          30.9364
+        ],
+        "radius": [
+          1.407,
+          1.225
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.1009,
+          31.4206
+        ],
+        "radius": [
+          1.795,
+          1.296
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.1508,
+          31.4398
+        ],
+        "radius": [
+          1.28,
+          0.953
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.9662,
+          26.894
+        ],
+        "radius": [
+          1.155,
+          1.924
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -28.3305,
+          30.7009
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -30.7735,
+          30.5151
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.4441,
+          19.5353
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -29.1039,
+          9.8692
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.8854,
+          -4.0604
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.6575,
+          -23.001
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -13.6571,
+          31.1349
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.2134,
+          10.995
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.4266,
+          10.205
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -11.8743,
+          3.9162
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.027,
+          -16.4378
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -23.9972,
+          -16.6944
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.0188,
+          -19.4944
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.4192,
+          -16.6616
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.0501,
+          -16.3904
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.4971,
+          -15.1111
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.7589,
+          -17.8121
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -3.1261,
+          -13.9701
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -0.9619,
+          -15.7467
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.8144,
+          -10.7138
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.4256,
+          -13.4462
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          23.9199,
+          -10.2608
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          33.7478,
+          -8.5359
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.9001,
+          -2.5909
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.9239,
+          -4.8107
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -20.0235,
+          -2.1101
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.3365,
+          -4.2211
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -14.6766,
+          -2.5712
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.9877,
+          -2.4078
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.2595,
+          -0.3986
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.4797,
+          -1.9267
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.2265,
+          -5.7913
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.0135,
+          -5.9687
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -24.4626,
+          15.5666
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.774,
+          16.3661
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.986,
+          13.4739
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -4.6122,
+          17.0939
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.7309,
+          18.2423
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.1571,
+          15.3737
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.6762,
+          17.3333
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.4998,
+          14.6827
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.2795,
+          12.1138
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.8492,
+          9.4955
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          32.4032,
+          10.2954
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          36.2413,
+          14.8027
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.3747,
+          12.1333
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.1854,
+          32.4086
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.3986,
+          32.6794
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.3246,
+          24.0565
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.541,
+          24.3595
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.5002,
+          17.6856
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.7398,
+          18.1544
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.2125,
+          10.984
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.3648,
+          3.6525
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.5648,
+          3.6755
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.1826,
+          -4.1584
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.4366,
+          -4.7056
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.7854,
+          -12.7582
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.0146,
+          -13.1618
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.5186,
+          -20.0177
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          14.7214,
+          -20.1423
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -22.0564,
+          -34.27
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.4021,
+          -34.7625
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -9.0337,
+          -33.8395
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -1.7589,
+          -35.5233
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.2372,
+          -32.4487
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.4028,
+          -34.9433
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.9891,
+          -27.575
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          25.0909,
+          -30.073
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.3288,
+          13.1974
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.7736,
+          12.6746
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.4164,
+          18.267
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          18.5149,
+          22.5042
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.9813,
+          24.4934
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          39.7452,
+          22.0435
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.6116,
+          20.7405
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          40.614,
+          6.2841
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.1316,
+          6.5799
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          39.7674,
+          -4.7527
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.2726,
+          -4.5913
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          38.9201,
+          -18.9968
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.8399,
+          23.7944
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.9201,
+          21.0456
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          5.6515,
+          23.9029
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          5.6765,
+          21.1531
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.5443,
+          23.2463
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.9485,
+          20.5617
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.4323,
+          21.994
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.6765,
+          19.35
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -26.482,
+          33.7601
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -26.814,
+          31.2319
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.8227,
+          33.2646
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.6653,
+          30.7194
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.7573,
+          31.6509
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -0.114,
+          35.0552
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.3389,
+          35.1707
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.2851,
+          32.6213
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.6401,
+          35.3294
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.8223,
+          36.3789
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          22.0337,
+          35.109
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          22.6452,
+          41.1033
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          23.5948,
+          38.7367
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          31.2822,
+          41.2723
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          31.1178,
+          38.7276
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.7942,
+          41.9109
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          37.9978,
+          39.3691
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          42.1777,
+          36.4579
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          39.6303,
+          36.3421
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          42.6194,
+          28.7186
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          43.684,
+          26.0635
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          42.556,
+          23.7765
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          49.233,
+          25.8446
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          49.615,
+          23.3234
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          55.9422,
+          27.5564
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -26.8169,
+          39.5844
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -27.1351,
+          37.4076
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.0358,
+          39.0894
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -18.8842,
+          36.8946
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.9913,
+          40.0144
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.7687,
+          37.8256
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.2411,
+          40.881
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.0789,
+          38.687
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.5787,
+          40.9958
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.5413,
+          38.7962
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.653,
+          41.2475
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.851,
+          39.0565
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          20.5841,
+          42.3514
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          21.8159,
+          40.5286
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          25.313,
+          42.8371
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          34.9062,
+          42.8042
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          41.2792,
+          43.4669
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          49.8843,
+          43.892
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -32.6145,
+          29.7087
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -33.836,
+          15.0325
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -32.5054,
+          7.8526
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -30.4144,
+          1.0096
+        ],
+        "radius": [
+          0.624,
+          0.707
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.2,
+          -27.3
+        ],
+        "radius": [
+          2.067,
+          2.465
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -15.0,
+          -28.1
+        ],
+        "radius": [
+          2.145,
+          2.65
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -12.6,
+          -23.4
+        ],
+        "radius": [
+          1.56,
+          2.139
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -19.9,
+          -21.9
+        ],
+        "radius": [
+          2.067,
+          1.441
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -16.1,
+          -21.6
+        ],
+        "radius": [
+          2.145,
+          1.628
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -10.0,
+          -10.0
+        ],
+        "radius": [
+          2.34,
+          2.464
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -5.5,
+          -10.1
+        ],
+        "radius": [
+          2.106,
+          2.325
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -8.0,
+          -5.3
+        ],
+        "radius": [
+          3.198,
+          1.628
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -2.5,
+          -7.0
+        ],
+        "radius": [
+          1.326,
+          2.79
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -17.656,
+          13.735
+        ],
+        "radius": [
+          1.283,
+          1.129
+        ],
+        "strength": 0.68,
+        "angle": 3.106
+      },
+      {
+        "position": [
+          -20.14,
+          25.499
+        ],
+        "radius": [
+          1.162,
+          1.024
+        ],
+        "strength": 0.68,
+        "angle": 3.1657
+      },
+      {
+        "position": [
+          -30.709,
+          13.306
+        ],
+        "radius": [
+          1.674,
+          0.815
+        ],
+        "strength": 0.68,
+        "angle": 1.4664
+      },
+      {
+        "position": [
+          -33.411,
+          21.019
+        ],
+        "radius": [
+          1.782,
+          1.052
+        ],
+        "strength": 0.68,
+        "angle": 4.7122
+      },
+      {
+        "position": [
+          -32.018,
+          27.33
+        ],
+        "radius": [
+          1.861,
+          0.857
+        ],
+        "strength": 0.68,
+        "angle": 4.8985
+      },
+      {
+        "position": [
+          -32.297,
+          -1.47
+        ],
+        "radius": [
+          1.314,
+          0.818
+        ],
+        "strength": 0.68,
+        "angle": 0.8104
+      },
+      {
+        "position": [
+          -27.229,
+          29.502
+        ],
+        "radius": [
+          1.253,
+          1.183
+        ],
+        "strength": 0.68,
+        "angle": 4.6458
+      },
+      {
+        "position": [
+          -21.771,
+          30.066
+        ],
+        "radius": [
+          1.748,
+          1.148
+        ],
+        "strength": 0.68,
+        "angle": 0.0327
+      },
+      {
+        "position": [
+          -26.277,
+          24.992
+        ],
+        "radius": [
+          1.931,
+          1.022
+        ],
+        "strength": 0.68,
+        "angle": 3.1288
+      },
+      {
+        "position": [
+          -32.946,
+          15.73
+        ],
+        "radius": [
+          1.155,
+          1.2
+        ],
+        "strength": 0.68,
+        "angle": 4.5776
+      },
+      {
+        "position": [
+          -25.567,
+          14.249
+        ],
+        "radius": [
+          1.357,
+          0.95
+        ],
+        "strength": 0.68,
+        "angle": 4.6194
+      },
+      {
+        "position": [
+          -15.184,
+          3.117
+        ],
+        "radius": [
+          1.717,
+          0.975
+        ],
+        "strength": 0.68,
+        "angle": 1.6606
+      },
+      {
+        "position": [
+          -21.253,
+          14.869
+        ],
+        "radius": [
+          1.693,
+          1.216
+        ],
+        "strength": 0.68,
+        "angle": -0.0096
+      },
+      {
+        "position": [
+          -16.603,
+          29.002
+        ],
+        "radius": [
+          1.136,
+          0.969
+        ],
+        "strength": 0.68,
+        "angle": 1.5593
+      },
+      {
+        "position": [
+          -19.108,
+          29.968
+        ],
+        "radius": [
+          1.406,
+          1.149
+        ],
+        "strength": 0.68,
+        "angle": -0.0423
+      },
+      {
+        "position": [
+          -20.88,
+          2.784
+        ],
+        "radius": [
+          1.303,
+          0.862
+        ],
+        "strength": 0.68,
+        "angle": 3.1201
+      },
+      {
+        "position": [
+          -23.22,
+          25.62
+        ],
+        "radius": [
+          1.541,
+          1.177
+        ],
+        "strength": 0.68,
+        "angle": 3.1786
+      },
+      {
+        "position": [
+          -30.69,
+          7.747
+        ],
+        "radius": [
+          1.581,
+          1.21
+        ],
+        "strength": 0.68,
+        "angle": 1.5481
+      },
+      {
+        "position": [
+          -33.59,
+          1.856
+        ],
+        "radius": [
+          1.722,
+          1.068
+        ],
+        "strength": 0.68,
+        "angle": 0.908
+      },
+      {
+        "position": [
+          -8.66,
+          30.973
+        ],
+        "radius": [
+          1.946,
+          0.851
+        ],
+        "strength": 0.68,
+        "angle": -0.0924
+      },
+      {
+        "position": [
+          11.114,
+          19.653
+        ],
+        "radius": [
+          1.842,
+          0.982
+        ],
+        "strength": 0.68,
+        "angle": 0.1673
+      },
+      {
+        "position": [
+          -11.825,
+          29.444
+        ],
+        "radius": [
+          1.551,
+          1.021
+        ],
+        "strength": 0.68,
+        "angle": 4.6834
+      },
+      {
+        "position": [
+          -0.458,
+          27.433
+        ],
+        "radius": [
+          1.968,
+          0.837
+        ],
+        "strength": 0.68,
+        "angle": -1.6028
+      },
+      {
+        "position": [
+          -6.84,
+          24.532
+        ],
+        "radius": [
+          1.197,
+          1.104
+        ],
+        "strength": 0.68,
+        "angle": 3.1752
+      },
+      {
+        "position": [
+          -8.949,
+          17.347
+        ],
+        "radius": [
+          1.691,
+          1.183
+        ],
+        "strength": 0.68,
+        "angle": 3.0966
+      },
+      {
+        "position": [
+          -4.633,
+          24.83
+        ],
+        "radius": [
+          1.212,
+          1.095
+        ],
+        "strength": 0.68,
+        "angle": 3.1755
+      },
+      {
+        "position": [
+          -11.013,
+          24.855
+        ],
+        "radius": [
+          1.893,
+          0.902
+        ],
+        "strength": 0.68,
+        "angle": 3.1833
+      },
+      {
+        "position": [
+          -3.113,
+          -19.053
+        ],
+        "radius": [
+          1.351,
+          0.915
+        ],
+        "strength": 0.68,
+        "angle": -0.2956
+      },
+      {
+        "position": [
+          -6.297,
+          -18.949
+        ],
+        "radius": [
+          1.165,
+          0.851
+        ],
+        "strength": 0.68,
+        "angle": -0.2457
+      },
+      {
+        "position": [
+          -4.175,
+          -30.245
+        ],
+        "radius": [
+          1.945,
+          0.914
+        ],
+        "strength": 0.68,
+        "angle": 3.0412
+      },
+      {
+        "position": [
+          36.322,
+          -3.473
+        ],
+        "radius": [
+          1.632,
+          1.011
+        ],
+        "strength": 0.68,
+        "angle": 1.5998
+      },
+      {
+        "position": [
+          26.765,
+          -5.453
+        ],
+        "radius": [
+          1.991,
+          1.156
+        ],
+        "strength": 0.68,
+        "angle": 3.1027
+      },
+      {
+        "position": [
+          26.493,
+          -2.392
+        ],
+        "radius": [
+          1.727,
+          1.147
+        ],
+        "strength": 0.68,
+        "angle": 3.1216
+      },
+      {
+        "position": [
+          18.472,
+          -2.156
+        ],
+        "radius": [
+          1.335,
+          0.864
+        ],
+        "strength": 0.68,
+        "angle": 3.194
+      },
+      {
+        "position": [
+          16.07,
+          -2.423
+        ],
+        "radius": [
+          1.163,
+          1.05
+        ],
+        "strength": 0.68,
+        "angle": 4.4966
+      },
+      {
+        "position": [
+          22.982,
+          -2.143
+        ],
+        "radius": [
+          1.783,
+          1.179
+        ],
+        "strength": 0.68,
+        "angle": 3.5418
+      },
+      {
+        "position": [
+          41.665,
+          1.755
+        ],
+        "radius": [
+          1.312,
+          1.109
+        ],
+        "strength": 0.68,
+        "angle": 4.8087
+      },
+      {
+        "position": [
+          42.555,
+          -4.778
+        ],
+        "radius": [
+          1.574,
+          1.13
+        ],
+        "strength": 0.68,
+        "angle": 4.7811
+      },
+      {
+        "position": [
+          41.642,
+          -8.018
+        ],
+        "radius": [
+          1.361,
+          0.853
+        ],
+        "strength": 0.68,
+        "angle": 4.7693
+      },
+      {
+        "position": [
+          41.746,
+          10.828
+        ],
+        "radius": [
+          1.597,
+          0.887
+        ],
+        "strength": 0.68,
+        "angle": 4.7902
+      },
+      {
+        "position": [
+          42.031,
+          19.759
+        ],
+        "radius": [
+          1.726,
+          1.13
+        ],
+        "strength": 0.68,
+        "angle": 4.5123
+      },
+      {
+        "position": [
+          44.663,
+          18.404
+        ],
+        "radius": [
+          1.369,
+          0.904
+        ],
+        "strength": 0.68,
+        "angle": 4.5725
+      },
+      {
+        "position": [
+          44.355,
+          22.536
+        ],
+        "radius": [
+          1.299,
+          0.91
+        ],
+        "strength": 0.68,
+        "angle": 0.1106
+      },
+      {
+        "position": [
+          44.997,
+          12.033
+        ],
+        "radius": [
+          1.283,
+          0.819
+        ],
+        "strength": 0.68,
+        "angle": 4.7919
+      },
+      {
+        "position": [
+          44.043,
+          0.859
+        ],
+        "radius": [
+          1.699,
+          0.884
+        ],
+        "strength": 0.68,
+        "angle": 4.7723
+      },
+      {
+        "position": [
+          44.075,
+          4.65
+        ],
+        "radius": [
+          1.967,
+          1.135
+        ],
+        "strength": 0.68,
+        "angle": 4.7894
+      },
+      {
+        "position": [
+          41.562,
+          -2.081
+        ],
+        "radius": [
+          1.14,
+          1.094
+        ],
+        "strength": 0.68,
+        "angle": 4.784
+      },
+      {
+        "position": [
+          41.099,
+          22.827
+        ],
+        "radius": [
+          1.606,
+          0.842
+        ],
+        "strength": 0.68,
+        "angle": 0.5323
+      },
+      {
+        "position": [
+          46.836,
+          19.435
+        ],
+        "radius": [
+          1.338,
+          0.835
+        ],
+        "strength": 0.68,
+        "angle": -0.0076
+      },
+      {
+        "position": [
+          46.781,
+          21.499
+        ],
+        "radius": [
+          1.463,
+          0.978
+        ],
+        "strength": 0.68,
+        "angle": 0.0018
+      },
+      {
+        "position": [
+          42.066,
+          5.337
+        ],
+        "radius": [
+          1.731,
+          0.825
+        ],
+        "strength": 0.68,
+        "angle": 4.7935
+      },
+      {
+        "position": [
+          42.146,
+          13.679
+        ],
+        "radius": [
+          1.34,
+          1.153
+        ],
+        "strength": 0.68,
+        "angle": 4.7326
+      },
+      {
+        "position": [
+          43.491,
+          -7.619
+        ],
+        "radius": [
+          1.184,
+          0.862
+        ],
+        "strength": 0.68,
+        "angle": 4.7956
+      },
+      {
+        "position": [
+          38.676,
+          34.34
+        ],
+        "radius": [
+          2.008,
+          0.995
+        ],
+        "strength": 0.68,
+        "angle": 1.593
+      },
+      {
+        "position": [
+          43.434,
+          38.837
+        ],
+        "radius": [
+          1.639,
+          1.064
+        ],
+        "strength": 0.68,
+        "angle": 4.5534
+      },
+      {
+        "position": [
+          38.963,
+          29.847
+        ],
+        "radius": [
+          1.465,
+          0.991
+        ],
+        "strength": 0.68,
+        "angle": 1.4403
+      },
+      {
+        "position": [
+          43.427,
+          31.735
+        ],
+        "radius": [
+          1.314,
+          1.12
+        ],
+        "strength": 0.68,
+        "angle": 4.6712
+      },
+      {
+        "position": [
+          43.269,
+          35.149
+        ],
+        "radius": [
+          1.24,
+          1.171
+        ],
+        "strength": 0.68,
+        "angle": 4.7519
+      },
+      {
+        "position": [
+          43.312,
+          28.952
+        ],
+        "radius": [
+          1.439,
+          0.926
+        ],
+        "strength": 0.68,
+        "angle": 4.59
+      },
+      {
+        "position": [
+          35.047,
+          -26.511
+        ],
+        "radius": [
+          1.182,
+          0.973
+        ],
+        "strength": 0.68,
+        "angle": 1.6176
+      },
+      {
+        "position": [
+          25.529,
+          -26.436
+        ],
+        "radius": [
+          1.327,
+          0.904
+        ],
+        "strength": 0.68,
+        "angle": 3.1518
+      },
+      {
+        "position": [
+          23.039,
+          -26.968
+        ],
+        "radius": [
+          1.338,
+          0.807
+        ],
+        "strength": 0.68,
+        "angle": 3.0437
+      },
+      {
+        "position": [
+          31.163,
+          -25.584
+        ],
+        "radius": [
+          1.68,
+          0.929
+        ],
+        "strength": 0.68,
+        "angle": 3.1995
+      },
+      {
+        "position": [
+          12.177,
+          37.814
+        ],
+        "radius": [
+          1.21,
+          0.84
+        ],
+        "strength": 0.68,
+        "angle": -0.0485
+      },
+      {
+        "position": [
+          4.981,
+          35.935
+        ],
+        "radius": [
+          1.361,
+          0.997
+        ],
+        "strength": 0.68,
+        "angle": 3.1877
+      },
+      {
+        "position": [
+          -1.618,
+          35.962
+        ],
+        "radius": [
+          1.805,
+          1.193
+        ],
+        "strength": 0.68,
+        "angle": 3.0421
+      },
+      {
+        "position": [
+          -27.357,
+          36.752
+        ],
+        "radius": [
+          1.232,
+          0.819
+        ],
+        "strength": 0.68,
+        "angle": 0.1487
+      },
+      {
+        "position": [
+          -13.265,
+          36.34
+        ],
+        "radius": [
+          1.51,
+          0.917
+        ],
+        "strength": 0.68,
+        "angle": 4.6658
+      },
+      {
+        "position": [
+          -16.693,
+          35.449
+        ],
+        "radius": [
+          1.241,
+          1.013
+        ],
+        "strength": 0.68,
+        "angle": 1.6016
+      },
+      {
+        "position": [
+          -6.05,
+          1.25
+        ],
+        "radius": [
+          1.326,
+          0.893
+        ],
+        "strength": 0.68,
+        "angle": 3.1416
+      },
+      {
+        "position": [
+          -11.35,
+          3.65
+        ],
+        "radius": [
+          1.677,
+          0.874
+        ],
+        "strength": 0.68,
+        "angle": 1.5708
+      },
+      {
+        "position": [
+          -6.2,
+          3.6
+        ],
+        "radius": [
+          1.638,
+          0.837
+        ],
+        "strength": 0.68,
+        "angle": -1.5708
+      },
+      {
+        "position": [
+          -10.8,
+          6.2
+        ],
+        "radius": [
+          1.443,
+          0.865
+        ],
+        "strength": 0.68,
+        "angle": 3.1416
+      },
+      {
+        "position": [
+          -6.2,
+          6.0
+        ],
+        "radius": [
+          1.404,
+          0.874
+        ],
+        "strength": 0.68,
+        "angle": 0
+      },
+      {
+        "position": [
+          -6.1,
+          10.5
+        ],
+        "radius": [
+          1.443,
+          0.893
+        ],
+        "strength": 0.68,
+        "angle": -1.5708
+      },
+      {
+        "position": [
+          1.1800000000000002,
+          -14.56
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.1800000000000002,
+          -15.51
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.18,
+          -14.56
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.18,
+          -15.51
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.18,
+          -18.36
+        ],
+        "radius": [
+          0.40040000000000003,
+          0.3388
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.18,
+          -20.959999999999997
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          1.1800000000000002,
+          -23.06
+        ],
+        "radius": [
+          0.47840000000000005,
+          0.4048
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.08,
+          -23.759999999999998
+        ],
+        "radius": [
+          0.4056,
+          0.3432
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.58,
+          -25.56
+        ],
+        "radius": [
+          0.47840000000000005,
+          0.4048
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          0.73,
+          -28.61
+        ],
+        "radius": [
+          0.4576,
+          0.3872
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.08,
+          -29.31
+        ],
+        "radius": [
+          0.4212,
+          0.35640000000000005
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          3.98,
+          -29.66
+        ],
+        "radius": [
+          0.4576,
+          0.3872
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.03,
+          -29.86
+        ],
+        "radius": [
+          0.4368,
+          0.3696
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          10.38,
+          -29.259999999999998
+        ],
+        "radius": [
+          0.442,
+          0.374
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.18,
+          -28.86
+        ],
+        "radius": [
+          0.468,
+          0.396
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.43,
+          -24.209999999999997
+        ],
+        "radius": [
+          0.4472,
+          0.3784
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.78,
+          -23.41
+        ],
+        "radius": [
+          0.39,
+          0.33
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          12.53,
+          -14.16
+        ],
+        "radius": [
+          0.4212,
+          0.35640000000000005
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          13.38,
+          -14.41
+        ],
+        "radius": [
+          0.364,
+          0.308
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          3.68,
+          -22.509999999999998
+        ],
+        "radius": [
+          0.39,
+          0.33
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.78,
+          -14.71
+        ],
+        "radius": [
+          0.3432,
+          0.2904
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          4.78,
+          -15.66
+        ],
+        "radius": [
+          0.33280000000000004,
+          0.2816
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.08,
+          -14.51
+        ],
+        "radius": [
+          0.338,
+          0.28600000000000003
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          6.08,
+          -15.51
+        ],
+        "radius": [
+          0.3432,
+          0.2904
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          2.08,
+          -28.009999999999998
+        ],
+        "radius": [
+          0.338,
+          0.28600000000000003
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.78,
+          -24.36
+        ],
+        "radius": [
+          0.39,
+          0.33
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.43,
+          0.16
+        ],
+        "radius": [
+          0.384,
+          0.32000000000000006
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.279999999999998,
+          -0.44
+        ],
+        "radius": [
+          0.3744,
+          0.31200000000000006
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.479999999999997,
+          -0.74
+        ],
+        "radius": [
+          0.3264,
+          0.272
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          15.28,
+          5.86
+        ],
+        "radius": [
+          0.3744,
+          0.31200000000000006
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          16.229999999999997,
+          7.51
+        ],
+        "radius": [
+          0.4128,
+          0.34400000000000003
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          17.279999999999998,
+          8.56
+        ],
+        "radius": [
+          0.3216,
+          0.268
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.479999999999997,
+          0.46
+        ],
+        "radius": [
+          0.384,
+          0.32000000000000006
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.08,
+          1.76
+        ],
+        "radius": [
+          0.3648,
+          0.30400000000000005
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.18,
+          5.16
+        ],
+        "radius": [
+          0.408,
+          0.34
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          29.58,
+          6.76
+        ],
+        "radius": [
+          0.38880000000000003,
+          0.32400000000000007
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          28.43,
+          8.110000000000001
+        ],
+        "radius": [
+          0.36,
+          0.30000000000000004
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          26.18,
+          9.16
+        ],
+        "radius": [
+          0.3168,
+          0.264
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          24.58,
+          9.430000000000001
+        ],
+        "radius": [
+          0.2352,
+          0.196
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.08,
+          9.21
+        ],
+        "radius": [
+          0.264,
+          0.22000000000000003
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          19.83,
+          -3.84
+        ],
+        "radius": [
+          0.3072,
+          0.256
+        ],
+        "strength": 0.25,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.05,
+          0.3
+        ],
+        "radius": [
+          0.65,
+          0.72
+        ],
+        "strength": 0.5,
+        "angle": 0
+      },
+      {
+        "position": [
+          30.1,
+          3.5
+        ],
+        "radius": [
+          0.65,
+          0.72
+        ],
+        "strength": 0.5,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.26,
+          11.81
+        ],
+        "radius": [
+          0.3174,
+          0.27599999999999997
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.66,
+          11.510000000000002
+        ],
+        "radius": [
+          0.36340000000000006,
+          0.31600000000000006
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          9.01,
+          8.81
+        ],
+        "radius": [
+          0.2852,
+          0.248
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.98,
+          4.31
+        ],
+        "radius": [
+          0.3174,
+          0.27599999999999997
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.359999999999999,
+          0.96
+        ],
+        "radius": [
+          0.30820000000000003,
+          0.268
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          7.56,
+          -1.6400000000000001
+        ],
+        "radius": [
+          0.3312,
+          0.288
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          11.58,
+          1.66
+        ],
+        "radius": [
+          0.2714,
+          0.236
+        ],
+        "strength": 0.24,
+        "angle": 0
+      },
+      {
+        "position": [
+          8.06,
+          -2.24
+        ],
+        "radius": [
+          0.322,
+          0.27999999999999997
+        ],
+        "strength": 0.24,
+        "angle": 0
+      }
+    ]
+  },
+  "olympicLandscape": {
+    "version": "olympic17",
+    "centralWalk": [
+      [
+        5.300000190734863,
+        -13.350000381469727
+      ],
+      [
+        5.300000190734863,
+        -13.603321075439453
+      ],
+      [
+        5.300000190734863,
+        -13.934375762939453
+      ],
+      [
+        5.300000190734863,
+        -14.327930450439453
+      ],
+      [
+        5.300000190734863,
+        -14.768750190734863
+      ],
+      [
+        5.300000190734863,
+        -15.241602897644043
+      ],
+      [
+        5.3000006675720215,
+        -15.731252670288086
+      ],
+      [
+        5.3000006675720215,
+        -16.222461700439453
+      ],
+      [
+        5.300000190734863,
+        -16.700000762939453
+      ],
+      [
+        5.300000190734863,
+        -17.195070266723633
+      ],
+      [
+        5.300000190734863,
+        -17.73554801940918
+      ],
+      [
+        5.300000190734863,
+        -18.30122184753418
+      ],
+      [
+        5.300000190734863,
+        -18.871875762939453
+      ],
+      [
+        5.300000190734863,
+        -19.427295684814453
+      ],
+      [
+        5.3000006675720215,
+        -19.947265625
+      ],
+      [
+        5.3000006675720215,
+        -20.411571502685547
+      ],
+      [
+        5.300000190734863,
+        -20.799999237060547
+      ],
+      [
+        5.303418159484863,
+        -21.108299255371094
+      ],
+      [
+        5.311718940734863,
+        -21.353906631469727
+      ],
+      [
+        5.321972846984863,
+        -21.54911994934082
+      ],
+      [
+        5.331250190734863,
+        -21.706249237060547
+      ],
+      [
+        5.336621284484863,
+        -21.837594985961914
+      ],
+      [
+        5.3351569175720215,
+        -21.955467224121094
+      ],
+      [
+        5.3239264488220215,
+        -22.072166442871094
+      ],
+      [
+        5.300000190734863,
+        -22.200000762939453
+      ],
+      [
+        5.268945217132568,
+        -22.329736709594727
+      ],
+      [
+        5.23593807220459,
+        -22.445703506469727
+      ],
+      [
+        5.197461128234863,
+        -22.550539016723633
+      ],
+      [
+        5.15000057220459,
+        -22.646875381469727
+      ],
+      [
+        5.090039253234863,
+        -22.737354278564453
+      ],
+      [
+        5.014062881469727,
+        -22.82461166381836
+      ],
+      [
+        4.91855525970459,
+        -22.91128158569336
+      ],
+      [
+        4.800000190734863,
+        -23.0
+      ],
+      [
+        4.64169979095459,
+        -23.092872619628906
+      ],
+      [
+        4.439844131469727,
+        -23.18828010559082
+      ],
+      [
+        4.210253715515137,
+        -23.283300399780273
+      ],
+      [
+        3.968750238418579,
+        -23.375
+      ],
+      [
+        3.7311525344848633,
+        -23.46044921875
+      ],
+      [
+        3.5132815837860107,
+        -23.536718368530273
+      ],
+      [
+        3.3309574127197266,
+        -23.60087776184082
+      ],
+      [
+        3.2,
+        -23.65
+      ]
+    ],
+    "waterArm": [
+      [
+        8.649999618530273,
+        -26.100000381469727
+      ],
+      [
+        8.703774452209473,
+        -26.079849243164062
+      ],
+      [
+        8.773199081420898,
+        -26.054800033569336
+      ],
+      [
+        8.855424880981445,
+        -26.02545166015625
+      ],
+      [
+        8.947599411010742,
+        -25.992401123046875
+      ],
+      [
+        9.046875,
+        -25.95625114440918
+      ],
+      [
+        9.150400161743164,
+        -25.917600631713867
+      ],
+      [
+        9.255324363708496,
+        -25.877050399780273
+      ],
+      [
+        9.358799934387207,
+        -25.835201263427734
+      ],
+      [
+        9.457974433898926,
+        -25.79265022277832
+      ],
+      [
+        9.550000190734863,
+        -25.75
+      ],
+      [
+        9.637024879455566,
+        -25.702926635742188
+      ],
+      [
+        9.723200798034668,
+        -25.648401260375977
+      ],
+      [
+        9.808674812316895,
+        -25.588973999023438
+      ],
+      [
+        9.893600463867188,
+        -25.52720069885254
+      ],
+      [
+        9.97812557220459,
+        -25.465625762939453
+      ],
+      [
+        10.062399864196777,
+        -25.40679931640625
+      ],
+      [
+        10.146574974060059,
+        -25.353273391723633
+      ],
+      [
+        10.23080062866211,
+        -25.307598114013672
+      ],
+      [
+        10.315225601196289,
+        -25.27232551574707
+      ],
+      [
+        10.399999618530273,
+        -25.25
+      ],
+      [
+        10.487024307250977,
+        -25.2367000579834
+      ],
+      [
+        10.577199935913086,
+        -25.22760009765625
+      ],
+      [
+        10.669175148010254,
+        -25.223899841308594
+      ],
+      [
+        10.76159954071045,
+        -25.2268009185791
+      ],
+      [
+        10.853124618530273,
+        -25.237499237060547
+      ],
+      [
+        10.942399024963379,
+        -25.257200241088867
+      ],
+      [
+        11.028074264526367,
+        -25.28710174560547
+      ],
+      [
+        11.10879898071289,
+        -25.328399658203125
+      ],
+      [
+        11.183221817016602,
+        -25.382299423217773
+      ],
+      [
+        11.25,
+        -25.450000762939453
+      ],
+      [
+        11.310250282287598,
+        -25.538150787353516
+      ],
+      [
+        11.366000175476074,
+        -25.649200439453125
+      ],
+      [
+        11.41724967956543,
+        -25.778051376342773
+      ],
+      [
+        11.46399974822998,
+        -25.919599533081055
+      ],
+      [
+        11.50624942779541,
+        -26.06875228881836
+      ],
+      [
+        11.543999671936035,
+        -26.220401763916016
+      ],
+      [
+        11.577250480651855,
+        -26.369449615478516
+      ],
+      [
+        11.605999946594238,
+        -26.51080322265625
+      ],
+      [
+        11.630249977111816,
+        -26.63935089111328
+      ],
+      [
+        11.649999618530273,
+        -26.75
+      ],
+      [
+        11.666374206542969,
+        -26.84272575378418
+      ],
+      [
+        11.679999351501465,
+        -26.922800064086914
+      ],
+      [
+        11.69012451171875,
+        -26.993074417114258
+      ],
+      [
+        11.695999145507812,
+        -27.056398391723633
+      ],
+      [
+        11.696874618530273,
+        -27.115625381469727
+      ],
+      [
+        11.691999435424805,
+        -27.173601150512695
+      ],
+      [
+        11.680624008178711,
+        -27.23317527770996
+      ],
+      [
+        11.661999702453613,
+        -27.297199249267578
+      ],
+      [
+        11.63537311553955,
+        -27.36852264404297
+      ],
+      [
+        11.600000381469727,
+        -27.450000762939453
+      ],
+      [
+        11.556050300598145,
+        -27.54330062866211
+      ],
+      [
+        11.504400253295898,
+        -27.646400451660156
+      ],
+      [
+        11.445350646972656,
+        -27.756601333618164
+      ],
+      [
+        11.379199981689453,
+        -27.87120246887207
+      ],
+      [
+        11.306251525878906,
+        -27.98750114440918
+      ],
+      [
+        11.226800918579102,
+        -28.102802276611328
+      ],
+      [
+        11.14115047454834,
+        -28.214401245117188
+      ],
+      [
+        11.049601554870605,
+        -28.319602966308594
+      ],
+      [
+        10.952451705932617,
+        -28.41570472717285
+      ],
+      [
+        10.850000381469727,
+        -28.5
+      ],
+      [
+        10.73322582244873,
+        -28.57452392578125
+      ],
+      [
+        10.596800804138184,
+        -28.64320182800293
+      ],
+      [
+        10.446575164794922,
+        -28.706174850463867
+      ],
+      [
+        10.288400650024414,
+        -28.763599395751953
+      ],
+      [
+        10.128125190734863,
+        -28.815624237060547
+      ],
+      [
+        9.971600532531738,
+        -28.86240005493164
+      ],
+      [
+        9.824674606323242,
+        -28.904075622558594
+      ],
+      [
+        9.693201065063477,
+        -28.940799713134766
+      ],
+      [
+        9.583027839660645,
+        -28.97272491455078
+      ],
+      [
+        9.5,
+        -29.0
+      ]
+    ],
+    "newTrees": 26,
+    "lamps": 19,
+    "visitors": 12
+  },
+  "workersLandscape": {
+    "version": "workers18",
+    "newTrees": 15,
+    "lights": 14,
+    "visitors": 24,
+    "shops": 2,
+    "northEntry": [
+      22,
+      -0.86
+    ],
+    "southLake": [
+      [
+        19.8,
+        9.39
+      ],
+      [
+        20.3,
+        9.15
+      ],
+      [
+        21.2,
+        9.17
+      ],
+      [
+        22,
+        9.27
+      ],
+      [
+        23,
+        9.16
+      ],
+      [
+        23.8,
+        9.35
+      ],
+      [
+        23.65,
+        9.68
+      ],
+      [
+        22.55,
+        9.73
+      ],
+      [
+        21.6,
+        9.59
+      ],
+      [
+        20.4,
+        9.69
+      ]
+    ]
+  },
+  "beihaiShore": {
+    "version": "beihai19",
+    "reflectionLights": [
+      {
+        "position": [
+          7.940938,
+          6.430208
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          7.419755,
+          4.033767
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          6.244868,
+          1.995097
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          4.557989,
+          0.560091
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          2.562577,
+          -0.098165
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          0.499311,
+          0.099721
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -1.38295,
+          1.129883
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -2.857177,
+          2.868068
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -3.745557,
+          5.104625
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -3.940938,
+          7.569792
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -3.419755,
+          9.966233
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -2.244868,
+          12.004904
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          -0.557988,
+          13.439909
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          3.500689,
+          13.900278
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          5.38295,
+          12.870117
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          6.857177,
+          11.131931
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          7.745557,
+          8.895375
+        ],
+        "strength": 0.76
+      },
+      {
+        "position": [
+          6.5,
+          12.63
+        ],
+        "strength": 0.94
+      },
+      {
+        "position": [
+          8.21,
+          9.3
+        ],
+        "strength": 0.94
+      },
+      {
+        "position": [
+          8.42,
+          5.6
+        ],
+        "strength": 0.94
+      },
+      {
+        "position": [
+          6.66,
+          1.05
+        ],
+        "strength": 0.94
+      }
+    ],
+    "trees": 8,
+    "gardenCenter": [
+      9.7,
+      -0.25
+    ],
+    "lakeRadii": [
+      5.65,
+      6.8
+    ]
+  },
+  "factoryLandscape": {
+    "version": "factory20",
+    "clerestoryPanes": 80,
+    "courtyardVisitors": [
+      [
+        25.75,
+        12.35
+      ],
+      [
+        28.85,
+        12.4
+      ],
+      [
+        30.93,
+        15.83
+      ],
+      [
+        31.27,
+        16.4
+      ],
+      [
+        33.93,
+        18.95
+      ],
+      [
+        30.08,
+        21.91
+      ]
+    ],
+    "note": "798 industrial reuse; artistically compressed, not a surveyed plan"
+  }
+}

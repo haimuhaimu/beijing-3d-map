@@ -1,0 +1,239 @@
+{
+  "replacedObjects": [
+    {
+      "object": "ParkSign_极速飞车",
+      "word": "极速飞车",
+      "source": "park_signs.json",
+      "oldVertices": 201,
+      "newVertices": 198,
+      "transformResidual": 5.088148427034866e-07
+    },
+    {
+      "object": "ParkSign_欢乐谷",
+      "word": "欢乐谷",
+      "source": "park_signs.json",
+      "oldVertices": 144,
+      "newVertices": 150,
+      "transformResidual": 2.61864197881323e-07
+    },
+    {
+      "object": "ParkSign_水晶神翼",
+      "word": "水晶神翼",
+      "source": "park_signs.json",
+      "oldVertices": 263,
+      "newVertices": 238,
+      "transformResidual": 2.4267480380757434e-07
+    },
+    {
+      "object": "ShopLettering_书屋",
+      "word": "书屋",
+      "source": "shop_signs.json",
+      "oldVertices": 126,
+      "newVertices": 99,
+      "transformResidual": 7.442279459368706e-09
+    },
+    {
+      "object": "ShopLettering_修车",
+      "word": "修车",
+      "source": "shop_signs.json",
+      "oldVertices": 122,
+      "newVertices": 110,
+      "transformResidual": 8.16665129965699e-09
+    },
+    {
+      "object": "ShopLettering_小吃",
+      "word": "小吃",
+      "source": "shop_signs.json",
+      "oldVertices": 113,
+      "newVertices": 71,
+      "transformResidual": 8.366378284607734e-09
+    },
+    {
+      "object": "ShopLettering_小吃.001",
+      "word": "小吃",
+      "source": "shop_signs.json",
+      "oldVertices": 113,
+      "newVertices": 71,
+      "transformResidual": 8.366378284607734e-09
+    },
+    {
+      "object": "ShopLettering_小吃.002",
+      "word": "小吃",
+      "source": "shop_signs.json",
+      "oldVertices": 113,
+      "newVertices": 71,
+      "transformResidual": 8.366378284607734e-09
+    },
+    {
+      "object": "ShopLettering_小吃.003",
+      "word": "小吃",
+      "source": "shop_signs.json",
+      "oldVertices": 113,
+      "newVertices": 71,
+      "transformResidual": 8.366378284607734e-09
+    },
+    {
+      "object": "ShopLettering_茶铺",
+      "word": "茶铺",
+      "source": "shop_signs.json",
+      "oldVertices": 160,
+      "newVertices": 159,
+      "transformResidual": 6.802021917939882e-09
+    },
+    {
+      "object": "ShopLettering_茶铺.001",
+      "word": "茶铺",
+      "source": "shop_signs.json",
+      "oldVertices": 160,
+      "newVertices": 159,
+      "transformResidual": 6.802021917939882e-09
+    },
+    {
+      "object": "ShopLettering_茶铺.002",
+      "word": "茶铺",
+      "source": "shop_signs.json",
+      "oldVertices": 160,
+      "newVertices": 159,
+      "transformResidual": 6.802021917939882e-09
+    },
+    {
+      "object": "Sign_BUTTERBEER",
+      "word": "BUTTERBEER",
+      "source": "universal_signs.json",
+      "oldVertices": 532,
+      "newVertices": 312,
+      "transformResidual": 1.0954127347417852e-06
+    },
+    {
+      "object": "Sign_HOGSMEADE",
+      "word": "HOGSMEADE",
+      "source": "universal_signs.json",
+      "oldVertices": 466,
+      "newVertices": 316,
+      "transformResidual": 1.0434192319053182e-06
+    },
+    {
+      "object": "Sign_HONEYDUKES",
+      "word": "HONEYDUKES",
+      "source": "universal_signs.json",
+      "oldVertices": 456,
+      "newVertices": 306,
+      "transformResidual": 1.0223015785015832e-06
+    },
+    {
+      "object": "Sign_OLLIVANDERS",
+      "word": "OLLIVANDERS",
+      "source": "universal_signs.json",
+      "oldVertices": 468,
+      "newVertices": 302,
+      "transformResidual": 9.564892309299466e-07
+    },
+    {
+      "object": "Sign_UNIVERSAL",
+      "word": "UNIVERSAL",
+      "source": "universal_signs.json",
+      "oldVertices": 384,
+      "newVertices": 258,
+      "transformResidual": 1.0513083594787531e-06
+    },
+    {
+      "object": "Sign_万龙",
+      "word": "万龙",
+      "source": "chongli_signs.json",
+      "oldVertices": 170,
+      "newVertices": 166,
+      "transformResidual": 2.2039384859340316e-06
+    },
+    {
+      "object": "Sign_云顶",
+      "word": "云顶",
+      "source": "chongli_signs.json",
+      "oldVertices": 174,
+      "newVertices": 154,
+      "transformResidual": 1.0936870999955772e-06
+    },
+    {
+      "object": "Sign_云顶.001",
+      "word": "云顶",
+      "source": "chongli_signs.json",
+      "oldVertices": 174,
+      "newVertices": 154,
+      "transformResidual": 1.0815207254211145e-06
+    },
+    {
+      "object": "Sign_咖啡",
+      "word": "咖啡",
+      "source": "chongli_signs.json",
+      "oldVertices": 238,
+      "newVertices": 188,
+      "transformResidual": 2.034847483400881e-06
+    },
+    {
+      "object": "Sign_太舞",
+      "word": "太舞",
+      "source": "chongli_signs.json",
+      "oldVertices": 260,
+      "newVertices": 262,
+      "transformResidual": 2.3056795512843564e-06
+    },
+    {
+      "object": "Sign_索道",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 1.9462293039396172e-06
+    },
+    {
+      "object": "Sign_索道.001",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 2.0173303170167856e-06
+    },
+    {
+      "object": "Sign_索道.002",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 2.1532452976202876e-06
+    },
+    {
+      "object": "Sign_索道.003",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 2.1532453402528517e-06
+    },
+    {
+      "object": "Sign_索道.004",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 2.204202480982076e-06
+    },
+    {
+      "object": "Sign_索道.005",
+      "word": "索道",
+      "source": "chongli_signs.json",
+      "oldVertices": 262,
+      "newVertices": 300,
+      "transformResidual": 2.2042024880875033e-06
+    },
+    {
+      "object": "Sign_雪具",
+      "word": "雪具",
+      "source": "chongli_signs.json",
+      "oldVertices": 164,
+      "newVertices": 174,
+      "transformResidual": 2.926028685124038e-06
+    }
+  ],
+  "unchangedMeshObjects": 19438,
+  "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "glbSha256": "41bf6254da680e9ad9b34f688570269094fa4deb72c6ca942ae8b016ede2fac4"
+}

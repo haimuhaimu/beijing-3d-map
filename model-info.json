@@ -1,0 +1,44 @@
+{
+  "generator": "Blender 4.5.14 LTS",
+  "places": [
+    "xierqi",
+    "beihai",
+    "workers",
+    "798",
+    "zhongguancun",
+    "olympic",
+    "chongli",
+    "universal",
+    "happy-valley",
+    "zhichun",
+    "xiangshan",
+    "sanfeng"
+  ],
+  "lampPositions": [
+    [
+      18.6,
+      4.3,
+      6.5
+    ],
+    [
+      25.4,
+      4.3,
+      6.5
+    ],
+    [
+      18.6,
+      4.3,
+      1.5
+    ],
+    [
+      25.4,
+      4.3,
+      1.5
+    ]
+  ],
+  "meshes": 726,
+  "triangles": 486154,
+  "glbBytes": 18266276,
+  "coordinates": "GLB Y-up; artistic compressed geography; Chongli lies outside Beijing",
+  "lettering": "Noto Sans CJK SC Regular (SIL OFL 1.1)"
+}
