@@ -1,7 +1,8 @@
 // The overview reads as landmarks within a city. Fine street contrast returns
 // continuously when zooming in; this never removes geometry or changes picking.
 export function visualRole(mesh) {
-  if (mesh.userData.place || /^City_(CBD|CentralAxis)_/.test(mesh.name)) return 'landmark';
+  for(let object=mesh;object;object=object.parent) if(object.userData.place) return 'landmark';
+  if (/^City_(CBD|CentralAxis)_/.test(mesh.name)) return 'landmark';
   if (/^City_(Streets|StreetLife|StreetDetails|NorthRailway|V15Lanes|V16EntryLight)__/.test(mesh.name)) return 'street';
   if (/^City_/.test(mesh.name)) return 'neighborhood';
   return 'landscape';

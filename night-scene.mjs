@@ -76,13 +76,13 @@ export function createNightScenery(T, scene) {
     const positions = [], indices = [];
     for (let i = 0; i <= 42; i++) {
       const x = -145 + i * 7;
-      const y = 1 + random() * (layer === 2 ? 9 : 6) + Math.sin(i * .75) * 2;
+      const y = 1 + random() * (layer === 2 ? 5 : 3) + Math.sin(i * .75);
       positions.push(x, -.12, -74 - layer * 10, x, y, -74 - layer * 10);
       if (i) { const n = i * 2; indices.push(n-2,n-1,n,n-1,n+1,n); }
     }
     const geometry = new T.BufferGeometry();
     geometry.setAttribute('position', new T.Float32BufferAttribute(positions,3)); geometry.setIndex(indices); geometry.computeVertexNormals();
-    const ridge = new T.Mesh(geometry, new T.MeshBasicMaterial({ color: ['#081b37','#102b55','#173969'][layer], side: T.DoubleSide }));
+    const ridge = new T.Mesh(geometry, new T.MeshBasicMaterial({ color: ['#07172d','#0a2040','#0d294d'][layer], side: T.DoubleSide }));
     root.add(ridge);
   }
   const stars = [];
@@ -100,7 +100,7 @@ export function createNightScenery(T, scene) {
       float tone=.76+.14*smoothstep(-.35,.6,maria)+.06*fine;
       gl_FragColor=vec4(vec3(1.25,1.04,.58)*tone,1.);}`,
   }));
-  moon.position.set(33,14,-48); root.add(moon);
+  moon.position.set(33,10,-48); root.add(moon);
   // Warm corona, painted procedurally so the entire viewer remains offline.
   const canvas = document.createElement('canvas'); canvas.width = canvas.height = 128;
   const context = canvas.getContext('2d');
