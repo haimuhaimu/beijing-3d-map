@@ -59,6 +59,21 @@ test('responsive overview contains the actual exported city and every destinatio
   }
 });
 
+test('overview zoom and free-view polar limits keep the camera above ground', () => {
+  const world=createDisplayWorld(catalog), model=gltf.scene.clone(true);
+  applyMapLayout(THREE,model,world.mapLayout);
+  const points=collectOverviewPoints(THREE,model);
+  for(const aspect of [.35,.58,.9,1.7,2.2,3.3]) {
+    const pose=fitOverview(points,aspect);
+    assert.ok(pose.target[1]>=0,`orbit target below ground at aspect ${aspect}: ${pose.target[1]}`);
+    const offset=new Vector3(...pose.position).sub(new Vector3(...pose.target));
+    const nearest=new Vector3(...pose.target).add(offset.normalize().multiplyScalar(5));
+    assert.ok(nearest.y>1,`minimum-distance zoom goes underground at ${aspect}`);
+    // OrbitControls allows a maximum polar angle of 1.25 and distance of 5.
+    assert.ok(pose.target[1]+5*Math.cos(1.25)>1,'free rotation also stays above the ground');
+  }
+});
+
 test('the GLB is self-contained and stays inside the advertised map footprint', () => {
   assert.equal(bytes.readUInt32LE(0), 0x46546c67);
   assert.ok(json.buffers.every(buffer => !buffer.uri));

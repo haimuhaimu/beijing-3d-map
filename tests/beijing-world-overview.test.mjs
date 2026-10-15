@@ -22,6 +22,20 @@ test('the full map fits its actual silhouette and uses the available viewport',(
   assert.equal(fitOverview([],1),null);
 });
 
+test('perspective framing uses both opposing edges instead of leaving one side empty',()=>{
+  // A far-west mountain and a near-east city have asymmetric perspective depth.
+  // A world-space bounding-box center leaves the city small and off-center.
+  for(const aspect of [.58,1.7,2.5,3.3]) {
+    const pose=fitOverview(points,aspect),camera=new PerspectiveCamera(35,aspect,.1,700);
+    camera.position.set(...pose.position);camera.lookAt(...pose.target);camera.updateMatrixWorld();
+    const projected=points.map(point=>new Vector3(...point).project(camera));
+    const x=projected.map(p=>p.x),y=projected.map(p=>p.y);
+    const fullWidth=Math.min(...x)<-.899 && Math.max(...x)>.899;
+    const fullHeight=Math.min(...y)<-.899 && Math.max(...y)>.899;
+    assert.ok(fullWidth||fullHeight,`unused framing space at aspect ${aspect}`);
+  }
+});
+
 test('returning to the map keeps its location and relative zoom after resizing',()=>{
   const saved={position:[12,61,59],target:[12,1,-1],fitDistance:100,free:false};
   const before=structuredClone(saved);

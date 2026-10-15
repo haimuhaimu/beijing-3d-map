@@ -3,26 +3,32 @@
 export function fitOverview(points, aspect) {
   if (!points.length) return null;
   const safeAspect = Math.max(.35,Number.isFinite(aspect)?aspect:1);
-  const angle = (45-17*Math.max(0,Math.min(1,(safeAspect-1)/1.2)))*Math.PI/180;
+  // A steeper portrait view separates north/south landmarks on narrow screens.
+  const angle = (60-32*Math.max(0,Math.min(1,(safeAspect-1)/1.2)))*Math.PI/180;
   const up = Math.sin(angle), forward = Math.cos(angle);
-  const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+  const tanV = Math.tan(35*Math.PI/360)*.9, tanH = tanV*safeAspect;
+  const sides = [-Infinity,-Infinity,-Infinity,-Infinity];
+  let maxDepth=-Infinity;
   const flat = ArrayBuffer.isView(points), count = flat ? points.length/3 : points.length;
   for(let i=0;i<count;i++) {
     const x=flat?points[i*3]:points[i][0], y=flat?points[i*3+1]:points[i][1], z=flat?points[i*3+2]:points[i][2];
     const vertical=y*forward-z*up, depth=y*up+z*forward;
-    min[0]=Math.min(min[0],x);max[0]=Math.max(max[0],x);
-    min[1]=Math.min(min[1],vertical);max[1]=Math.max(max[1],vertical);
-    min[2]=Math.min(min[2],depth);max[2]=Math.max(max[2],depth);
+    sides[0]=Math.max(sides[0],depth+x/tanH);
+    sides[1]=Math.max(sides[1],depth-x/tanH);
+    sides[2]=Math.max(sides[2],depth+vertical/tanV);
+    sides[3]=Math.max(sides[3],depth-vertical/tanV);
+    maxDepth=Math.max(maxDepth,depth);
   }
-  const center = min.map((value,i)=>(value+max[i])/2);
-  const tanV = Math.tan(35*Math.PI/360)*.9, tanH = tanV*safeAspect;
-  let distance = 5;
-  for(let i=0;i<count;i++) {
-    const x=flat?points[i*3]:points[i][0], y=flat?points[i*3+1]:points[i][1], z=flat?points[i*3+2]:points[i][2];
-    distance=Math.max(distance,y*up+z*forward-center[2]+Math.max(Math.abs(x-center[0])/tanH,Math.abs(y*forward-z*up-center[1])/tanV));
-  }
-  const target=[center[0],center[1]*forward+center[2]*up,center[2]*forward-center[1]*up];
-  return {target,position:[target[0],target[1]+distance*up,target[2]+distance*forward]};
+  // Solve the opposing perspective-frustum planes together. Centering the
+  // world bounds first wastes space when the skyline and foreground differ
+  // in depth. This is the closest north-up camera that contains every point.
+  const center=[(sides[0]-sides[1])*tanH/2,(sides[2]-sides[3])*tanV/2];
+  const cameraDepth=Math.max((sides[0]+sides[1])/2,(sides[2]+sides[3])/2,maxDepth+5);
+  // Keep the solved pose, but put the orbit target on the ground along its
+  // viewing ray. A bounds-depth midpoint can put it underground, so zooming
+  // toward that point would eventually take the camera under the city.
+  const target=[center[0],0,-center[1]/up];
+  return {target,position:[center[0],center[1]*forward+cameraDepth*up,cameraDepth*forward-center[1]*up]};
 }
 
 export function restoreMapView(saved, fitDistance, fitPose = null) {

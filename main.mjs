@@ -1,13 +1,13 @@
-import { createCityLighting, applyCityLighting } from './city-lighting.mjs?v=panorama24';
+import { createCityLighting, applyCityLighting } from './city-lighting.mjs?v=panorama25';
 let cityLighting = null;
-import { createFieldState, reduceFieldState, transitionDuration, lampLevel, createLoadWatchdog, locationCardForState, placeCardLayout, validateWorld, cameraPoseFor, isSceneTap, materialKind, placeIdForObject, placeFromHits } from './state.mjs?v=panorama24';
-import { createNightScenery, createNightPostEffect } from './night-scene.mjs?v=panorama24';
-import { createDisplayWorld, applyMapLayout } from './map-layout.mjs?v=panorama24';
-import { beihaiReflectionAnchors } from './beihai-reflections.mjs?v=panorama24';
-import { applyCitySurface } from './city-surfaces.mjs?v=panorama24';
-import { visualRole, viewDetail, applyViewHierarchy } from './view-hierarchy.mjs?v=panorama24';
-import { BEIHAI_VIEWS, guidedCameraPose, viewPolicy, applyVisitFocus } from './guided-view.mjs?v=panorama24';
-import { fitOverview, restoreMapView, collectOverviewPoints } from './overview-view.mjs?v=panorama24';
+import { createFieldState, reduceFieldState, transitionDuration, lampLevel, createLoadWatchdog, locationCardForState, placeCardLayout, validateWorld, cameraPoseFor, isSceneTap, materialKind, placeIdForObject, placeFromHits } from './state.mjs?v=panorama25';
+import { createNightScenery, createNightPostEffect } from './night-scene.mjs?v=panorama25';
+import { createDisplayWorld, applyMapLayout } from './map-layout.mjs?v=panorama25';
+import { beihaiReflectionAnchors } from './beihai-reflections.mjs?v=panorama25';
+import { applyCitySurface } from './city-surfaces.mjs?v=panorama25';
+import { visualRole, viewDetail, applyViewHierarchy } from './view-hierarchy.mjs?v=panorama25';
+import { BEIHAI_VIEWS, guidedCameraPose, viewPolicy, applyVisitFocus } from './guided-view.mjs?v=panorama25';
+import { fitOverview, restoreMapView, collectOverviewPoints } from './overview-view.mjs?v=panorama25';
 let freeView = false, beihaiShot = 'island';
 let overviewPoints = [], overviewMemory = null, viewportFitDistance = 0, viewportFitPose = null, overviewCache = null;
 const visitFocus = { value: 0 };
@@ -427,6 +427,19 @@ function styleModel(object) {
       if (name === 'Road_Paint') material.color.multiplyScalar(.65);
       if (name === 'Road_Asphalt') material.color.multiplyScalar(1.32);
       if (name === 'Road_Sidewalk') material.color.multiplyScalar(.91);
+      // Broad lit surfaces carry the landmark silhouette; small office windows
+      // remain accents. This display palette leaves the licensed GLB unchanged.
+      if (role === 'landmark' && /^(Ground_.*(Paving|Path|Court|Steps)|Stone_Promenade|Beihai_Stone|Universal_Paving)$/.test(name)) {
+        material.color.lerp(new THREE.Color(.50,.35,.18),.42);
+        material.emissive.add(new THREE.Color(.026,.013,.004));
+      }
+      if (name === 'Water_Beihai') {
+        material.color.setRGB(.014,.21,.43);
+        material.emissive.setRGB(.002,.026,.065);
+      }
+      if (name === 'White_Stupa' || name === 'Beihai_WhiteLime') material.emissive.add(new THREE.Color(.06,.047,.028));
+      if (name === 'City_V13NestSteel') material.color.lerp(new THREE.Color(.62,.52,.36),.45);
+      if (name === 'City_V13LitGlass') material.emissiveIntensity *= .55;
       if (name === 'Water_Lake' || name === 'Water_Beihai' || name === 'Water_ValleyLagoon' || name === 'Water_CityPond' || name === 'Water_OlympicCanal' || name === 'Water_WorkersLake' || name === 'Water_BeihaiGarden') {
         // Fixed etched ripples give the lake a surface at close range. They
         // have no time uniform, so pause/reduced-motion and idle rendering
@@ -724,7 +737,7 @@ function initRenderer() {
 }
 
 async function readModel(signal, loadId) {
-  const response = await fetch('./beijing-world.glb?v=panorama24', { signal, cache: 'no-cache' });
+  const response = await fetch('./beijing-world.glb?v=panorama25', { signal, cache: 'no-cache' });
   if (!response.ok) throw new Error(`Scene response ${response.status}`);
   const total = Number(response.headers.get('Content-Length'));
   if (!response.body || !total) return response.arrayBuffer();
@@ -763,7 +776,7 @@ async function loadScene() {
   cancelLoadWatchdog = stopWatchdog;
   try {
     if (!world) {
-      const response = await fetch('./places.json?v=panorama24', { signal: controller.signal, cache: 'no-cache' });
+      const response = await fetch('./places.json?v=panorama25', { signal: controller.signal, cache: 'no-cache' });
       if (!response.ok) throw new Error(`Places response ${response.status}`);
       const contract = validateWorld(await response.json());
       if (loadId !== state.loadId || state.status !== 'loading' || controller.signal.aborted) return;

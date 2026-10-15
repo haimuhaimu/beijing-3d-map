@@ -1,9 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { PerspectiveCamera, Vector3 } from '../vendor/three.module.min.js';
+import { PerspectiveCamera, Vector3, Group, Mesh } from '../vendor/three.module.min.js';
+import { visualRole } from '../view-hierarchy.mjs';
 import { BEIHAI_VIEWS, guidedCameraPose, viewPolicy } from '../guided-view.mjs';
 const world=JSON.parse(fs.readFileSync(new URL('../places.json',import.meta.url)));
+
+test('landmark emphasis follows the selectable place through nested GLB groups',()=>{
+ const place=new Group();place.userData.place='beihai';
+ const nested=new Group(),mesh=new Mesh();mesh.name='City_Courtyard__Stone';
+ place.add(nested);nested.add(mesh);
+ assert.equal(visualRole(mesh),'landmark');
+ nested.remove(mesh);
+ assert.equal(visualRole(mesh),'neighborhood','detached city objects must not inherit stale emphasis');
+});
 
 test('overview pans without losing north; curated Beihai is stable; free view unlocks the model',()=>{
  assert.deepEqual(viewPolicy('all',false),{rotate:false,pan:true,cursorZoom:true});
